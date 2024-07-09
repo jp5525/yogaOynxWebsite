@@ -1,0 +1,13 @@
+#contact-box{
+    padding: 15px 0px;
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.phone{
+    margin-right: 1em ;
+}
+
+
+
