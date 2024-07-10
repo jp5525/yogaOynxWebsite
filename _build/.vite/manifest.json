@@ -1,0 +1,18 @@
+{
+  "public/wood.jpg": {
+    "file": "assets/wood-B7vlxAf2.jpg",
+    "src": "public/wood.jpg"
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-CSbt_0wD.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "css": [
+      "assets/client-uD0F8ajE.css"
+    ],
+    "assets": [
+      "assets/wood-B7vlxAf2.jpg"
+    ]
+  }
+}
