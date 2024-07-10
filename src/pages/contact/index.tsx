@@ -6,7 +6,7 @@ import pageStyle from "../../styles/page.module.css"
 
 export default function Index() {
     return <div style={{height: "120vh"}}>
-        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image='/public/contact_hero.jpg' opacity={0.55}>
+        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image='contact_hero.jpg' opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>Contact</h2>
               <p>Get in Touch</p>              
@@ -62,8 +62,8 @@ export default function Index() {
                     <hr />
 
                     <div id={styles.social}>
-                        <img src="/public/facebook_icon.svg" />
-                        <img src="/public/instagram_icon.webp" />
+                        <img src="facebook_icon.svg" />
+                        <img src="instagram_icon.webp" />
                     </div>
 
                 </div>

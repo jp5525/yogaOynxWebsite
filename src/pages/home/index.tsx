@@ -5,7 +5,7 @@ import styles from "./index.module.css"
 
 export default function Index() {
     return <div style={{height: "120vh"}}>      
-        <Parallax class={styles.hero} style={{ "min-height": "85Vh"}} image='/public/home_page_hero_banner.jpg'>
+        <Parallax class={styles.hero} style={{ "min-height": "85Vh"}} image='home_page_hero_banner.jpg'>
             <div id={styles["welcome-box"]}>
               <h2>Welcome</h2>
               <p>Heal yourself through yoga. Transform your body and mind.</p>
@@ -34,7 +34,7 @@ export default function Index() {
           </div>
 
           <div id={styles.image}>
-            <Parallax image="/public/home_page_section_2.jpg"></Parallax>
+            <Parallax image="home_page_section_2.jpg"></Parallax>
           </div>
         </div>
     </div>;

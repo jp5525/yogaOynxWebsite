@@ -15,11 +15,11 @@ export default ()=>{
 
     const navItems = [
         { title:"Home", path:"/"},
-        { title:"Teachers", path:"/teachers"},
-        { title:"Classes", path:"/classes"},
+        { title:"Teachers", path:"/yogaOynxWebsite/teachers"},
+        { title:"Classes", path:"/yogaOynxWebsite/classes"},
         { title:"Class\u00A0Schedule", path:"https://www.mindbodyonline.com/explore/locations/yoga-onyx"},
-        { title:"Pricing", path:"/pricing"},
-        { title:"Contact", path:"/contact"},
+        { title:"Pricing", path:"/yogaOynxWebsite/pricing"},
+        { title:"Contact", path:"/yogaOynxWebsite/contact"},
     ]
 
     createEffect(() => {
@@ -33,7 +33,7 @@ export default ()=>{
 
     return <div id={styles.header} classList={classes()}>
         <div id={styles.logo}>
-            <a onClick={()=>setCrrPage("/")} href="/"><img src="/public/logo.png"/></a>
+            <a onClick={()=>setCrrPage("/")} href="/"><img src="logo.png"/></a>
         </div>
         <div id={styles.nav}>
             <ul classList={{[styles["hide-on-mobile"]]: !crrOpen()}}>
