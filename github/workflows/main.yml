@@ -20,7 +20,7 @@ jobs:
       - name: build
         run: npm run build
         env:
-          BASE_PATH: /my-app/
+          BASE_PATH: /yogaOynxWebsite/
 
       - name: create .nojekyll
         run: touch .output/public/.nojekyll
