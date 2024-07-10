@@ -4,7 +4,7 @@
     "src": "public/wood.jpg"
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-BJMWp0g4.js",
+    "file": "assets/client-aN9DYS3x.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
