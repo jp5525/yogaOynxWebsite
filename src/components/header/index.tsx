@@ -12,15 +12,15 @@ export default ()=>{
     const [classes, setClasses] = createSignal({ [styles.row]: true, [styles.header]:true, [styles.sticky]:false });
     const [crrPage, setCrrPage] = createSignal(pathname)
     const [crrOpen, setOpen] = createSignal(false)
-    const baseUrl = import.meta.env.SERVER_BASE_URL? `/${import.meta.env.SERVER_BASE_URL}` :  "";
+    const baseUrl = import.meta.env.SERVER_BASE_URL? `${import.meta.env.SERVER_BASE_URL}` :  "/";
 
     const navItems = [
-        { title:"Home", path: baseUrl? baseUrl : "/"},
-        { title:"Teachers", path:`${baseUrl}/teachers`},
-        { title:"Classes", path:`${baseUrl}/classes`},
+        { title:"Home", path: baseUrl? baseUrl : baseUrl},
+        { title:"Teachers", path:`${baseUrl}teachers`},
+        { title:"Classes", path:`${baseUrl}classes`},
         { title:"Class\u00A0Schedule", path:"https://www.mindbodyonline.com/explore/locations/yoga-onyx", target: "_blank"},
-        { title:"Pricing", path: `${baseUrl}/pricing`},
-        { title:"Contact", path:`${baseUrl}/contact`},
+        { title:"Pricing", path: `${baseUrl}pricing`},
+        { title:"Contact", path:`${baseUrl}contact`},
     ]
 
     createEffect(() => {
