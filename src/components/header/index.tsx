@@ -12,14 +12,15 @@ export default ()=>{
     const [classes, setClasses] = createSignal({ [styles.row]: true, [styles.header]:true, [styles.sticky]:false });
     const [crrPage, setCrrPage] = createSignal(pathname)
     const [crrOpen, setOpen] = createSignal(false)
+    const baseUrl = import.meta.env.SERVER_BASE_URL? `/${import.meta.env.SERVER_BASE_URL}` :  "";
 
     const navItems = [
-        { title:"Home", path:"/"},
-        { title:"Teachers", path:"/yogaOynxWebsite/teachers"},
-        { title:"Classes", path:"/yogaOynxWebsite/classes"},
-        { title:"Class\u00A0Schedule", path:"https://www.mindbodyonline.com/explore/locations/yoga-onyx"},
-        { title:"Pricing", path:"/yogaOynxWebsite/pricing"},
-        { title:"Contact", path:"/yogaOynxWebsite/contact"},
+        { title:"Home", path: baseUrl? baseUrl : "/"},
+        { title:"Teachers", path:`${baseUrl}/teachers`},
+        { title:"Classes", path:`${baseUrl}/classes`},
+        { title:"Class\u00A0Schedule", path:"https://www.mindbodyonline.com/explore/locations/yoga-onyx", target: "_blank"},
+        { title:"Pricing", path: `${baseUrl}/pricing`},
+        { title:"Contact", path:`${baseUrl}/contact`},
     ]
 
     createEffect(() => {
@@ -33,7 +34,7 @@ export default ()=>{
 
     return <div id={styles.header} classList={classes()}>
         <div id={styles.logo}>
-            <a onClick={()=>setCrrPage("/")} href="/"><img src="logo.png"/></a>
+            <a onClick={()=>setCrrPage(baseUrl? baseUrl : "/")} href={baseUrl? baseUrl : "/"}><img src="logo.png"/></a>
         </div>
         <div id={styles.nav}>
             <ul classList={{[styles["hide-on-mobile"]]: !crrOpen()}}>

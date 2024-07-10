@@ -5,5 +5,8 @@ export default defineConfig({
       server: {
         baseURL: process.env.BASE_PATH,
         preset: "static"
-      }
+      },
+      vite:{
+        
+      },
   });
