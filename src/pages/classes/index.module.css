@@ -39,4 +39,15 @@
     .class-descripiton{
         width: 100%;
     }
+
+    .class-descripiton > div{
+        padding: 0 0px;
+    }
+
+    .class{
+        margin: 35px 0;
+        padding: 0 20px;
+        max-height: unset;
+    }
 }
+

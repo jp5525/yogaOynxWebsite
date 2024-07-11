@@ -33,7 +33,7 @@ export default ()=>{
     });
 
     return <div id={styles.header} classList={classes()}>
-        <div id={styles.logo}>
+        <div id={styles.logo} classList={{[styles["hide-on-mobile"]]:crrOpen() }}>
             <a onClick={()=>setCrrPage(baseUrl? baseUrl : "/")} href={baseUrl? baseUrl : "/"}><img src="logo.png"/></a>
         </div>
         <div id={styles.nav}>

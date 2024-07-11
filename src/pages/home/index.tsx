@@ -3,6 +3,8 @@ import Parallax from "~/components/parallax";
 import "../../app.css"
 import styles from "./index.module.css"
 
+const getBaseUrl = ()=>import.meta.env.SERVER_BASE_URL? import.meta.env.SERVER_BASE_URL :  "/";
+
 export default function Index() {
     return <div style={{height: "120vh"}}>      
         <Parallax class={styles.hero} style={{ "min-height": "85Vh"}} image='home_page_hero_banner.jpg'>
@@ -10,11 +12,11 @@ export default function Index() {
               <h2>Welcome</h2>
               <p>Heal yourself through yoga. Transform your body and mind.</p>
               <div id={styles["action-items"]}>
-                  <a>
+                  <a href={`${getBaseUrl()}classes`}>
                     Class Offerings
                   </a>
 
-                  <a class={styles["hollow-btn"]} >
+                  <a class={styles["hollow-btn"]} href={"https://www.mindbodyonline.com/explore/locations/yoga-onyx"} target="_blank">
                     View Schedule
                   </a>
 
@@ -29,7 +31,7 @@ export default function Index() {
               <p>We live in a fast-paced society. We are trained to believe that busy is a good thing, or even productive. In this go go go lifestyle that has been created over generations, Yoga Onyx leads and encourages the opposite. We teach our students how to be still. How to strengthen the mind and build an equanimity, the ability to be still, and of a sound mind even in chaotic situations. We teach that movement is medicine. That we have the power within the human body to heal ourselves with direct, intentional movement. But most of all, we believe in the power of the breath. This is the fundamental, foundation of a yoga practice. Our teachers will begin each class by cultivating a breath, a deep, diaphragmatic breath that encourages lightness, promotes detoxification, and quiets the mind, ultimately linking the mind to the body and the breath, all together.</p>
               <p>We are a warm to hot studio, heated with infrared panels. We believe in practicing in a heated space as it lowers the risk of injury, leads to deeper detoxification, promotes an increased flexibility, and increases circulation, amongst other things. We chose infrared panels because of the numerous benefits they provide. Studies show that practicing yoga, or movement, or even stillness in an infrared environment can lower cholesterol, improve cardiovascular health, strengthen the immune system, activates serotonin production which aids in those struggling with depression, to name a few…</p>
               <p>We are confident that you will find a peaceful and safe place here. A place for you to cultivate your own yoga practice or deepen it. A place for you to come as you are, turn your attention inward, quiet your mind, find stillness, and freely move your body without judgment.</p>
-              <a>Meet Our Teachers</a>
+              <a href={`${getBaseUrl()}teachers`}>Meet Our Teachers</a>
             </div>
           </div>
 

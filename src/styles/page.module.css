@@ -6,6 +6,12 @@
     position: relative;
 }
 
+@media(max-width: 400px){
+    .hero{
+        padding: 0 0;
+    }
+}
+
 #hero-box *{
     text-align: center;
 }
