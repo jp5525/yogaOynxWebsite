@@ -1,6 +1,7 @@
 import { createScrollPosition,  } from "@solid-primitives/scroll";
 import { createEffect, createSignal } from "solid-js"
 import { useLocation } from "@solidjs/router";
+import { addBaseUrl } from "~/util";
 
 import styles from "./index.module.css"
 import "../../app.css"
@@ -34,7 +35,7 @@ export default ()=>{
 
     return <div id={styles.header} classList={classes()}>
         <div id={styles.logo} classList={{[styles["hide-on-mobile"]]:crrOpen() }}>
-            <a onClick={()=>setCrrPage(baseUrl? baseUrl : "/")} href={baseUrl? baseUrl : "/"}><img src="logo.png"/></a>
+            <a onClick={()=>setCrrPage(baseUrl? baseUrl : "/")} href={baseUrl? baseUrl : "/"}><img src={addBaseUrl("logo.png")}/></a>
         </div>
         <div id={styles.nav}>
             <ul classList={{[styles["hide-on-mobile"]]: !crrOpen()}}>
