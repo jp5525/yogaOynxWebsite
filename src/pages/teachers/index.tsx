@@ -1,4 +1,5 @@
 import Parallax from "~/components/parallax";
+import { addBaseUrl } from "~/util";
 import "../../app.css"
 import styles  from "./index.module.css"
 import pageStyle from "../../styles/page.module.css"
@@ -12,7 +13,7 @@ export default function Index() {
     const {teachers =[]} = useContext(AppContext) as any ?? {}
 
     return <div style={{height: "120vh"}}>
-        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image='teachers_hero.jpg' opacity={0.55}>
+        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('teachers_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>Teachers</h2>
               <p>Meet Our Team</p>              

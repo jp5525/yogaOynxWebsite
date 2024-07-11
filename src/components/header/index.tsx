@@ -41,7 +41,10 @@ export default ()=>{
                 {
                     navItems.map(navItem=>
                         <li class={navItem.path===crrPage()?styles["current-page"]: ""}>
-                            <a onClick={()=> setCrrPage(navItem.path)} href={navItem.path}>{navItem.title}</a>
+                            <a onClick={()=> {
+                                setCrrPage(navItem.path)
+                                setOpen( false )
+                                }} href={navItem.path}>{navItem.title}</a>
                         </li>
                     )    
                 }

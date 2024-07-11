@@ -1,4 +1,5 @@
 import Parallax from "~/components/parallax";
+import { addBaseUrl } from "~/util"
 import "../../app.css"
 import styles  from "./index.module.css"
 import pageStyle from "../../styles/page.module.css"
@@ -6,7 +7,7 @@ import pageStyle from "../../styles/page.module.css"
 
 export default function Index() {
     return <div style={{height: "120vh"}}>
-        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image='contact_hero.jpg' opacity={0.55}>
+        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('contact_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>Contact</h2>
               <p>Get in Touch</p>              
@@ -62,8 +63,8 @@ export default function Index() {
                     <hr />
 
                     <div id={styles.social}>
-                        <img src="facebook_icon.svg" />
-                        <img src="instagram_icon.webp" />
+                        <img src={addBaseUrl("facebook_icon.svg")} />
+                        <img src={addBaseUrl("instagram_icon.webp")} />
                     </div>
 
                 </div>
@@ -100,8 +101,6 @@ export default function Index() {
                                 <label for="message">Message:</label>
                                 <textarea id="message" name="message" ></textarea>
                             </div>
-
-                            
                             
                             <input type="submit" value="Send Message"/>
 

@@ -1,6 +1,6 @@
 import Parallax from "~/components/parallax";
+import { addBaseUrl } from "~/util"
 import styles  from "./index.module.css"
-
 import pageStyle from "../../styles/page.module.css"
 import "../../app.css"
 
@@ -25,7 +25,7 @@ export default function Index() {
     }, {})
 
     return <div style={{height: "120vh"}}>
-        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image='classes_hero.jpg' opacity={0.55}>
+        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>Pricing</h2>
               <p>Offers, Packages, & Memberships</p>              

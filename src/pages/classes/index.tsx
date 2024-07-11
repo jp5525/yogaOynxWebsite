@@ -1,6 +1,6 @@
 import Parallax from "~/components/parallax";
 import styles  from "./index.module.css"
-
+import { addBaseUrl } from "~/util"
 import pageStyle from "../../styles/page.module.css"
 import "../../app.css"
 
@@ -48,7 +48,7 @@ const YogaClass = (props: { class:{title: string, description: string, image:str
 
     return <div class={styles.class}>
         <div class={styles["class-image"]}>
-            <img src={image} />
+            <img src={addBaseUrl(image)} />
         </div>
         <div class={styles["class-descripiton"]}>
             <div>
@@ -62,7 +62,7 @@ const YogaClass = (props: { class:{title: string, description: string, image:str
 
 export default function Index() {
     return <div style={{height: "120vh"}}>
-        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image='classes_hero.jpg' opacity={0.55}>
+        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>Classes</h2>
               <p>At Yoga Oynx</p>              
