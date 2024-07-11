@@ -4,12 +4,12 @@
     "src": "public/wood.jpg"
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-aN9DYS3x.js",
+    "file": "assets/client-BZHMDYir.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "css": [
-      "assets/client-uD0F8ajE.css"
+      "assets/client-Lydq_QVB.css"
     ],
     "assets": [
       "assets/wood-B7vlxAf2.jpg"
