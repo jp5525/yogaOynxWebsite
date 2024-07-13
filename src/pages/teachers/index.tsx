@@ -32,7 +32,7 @@ export default function Index() {
             <Suspense fallback={<p>Loading..</p>}>
             <Switch>
                 <Match when={teachers()}>
-                    {teachers().map(
+                    {(teachers() ?? []).map(
                             ({name, description, image}: {name:string, description: string, image: string})=>
                         <div>
                             <div class={styles.profile}>

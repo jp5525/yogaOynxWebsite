@@ -7,16 +7,21 @@ import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
 import { Suspense, Switch, Match } from "solid-js";
 import { createAsync } from "@solidjs/router";
 
-const Pricing = (props:{items:{group:string, description:string}[]}) => <div class={styles.pricing}>
-<div class={styles["pricing-title"]}>
-    <h2 innerHTML={props.items[0]?.group}></h2>
-</div>
-<div class={styles["pricing-info"]}>
-    {props.items.map(p=><div innerHTML={p.description}></div>)}
-</div>
+type Price ={
+    description: string;
+    group: string
+}
+
+const Pricing = (props:{items:Price[]}) => <div class={styles.pricing}>
+    <div class={styles["pricing-title"]}>
+        <h2 innerHTML={props.items[0]?.group}></h2>
+    </div>
+    <div class={styles["pricing-info"]}>
+        {props.items.map(p=><div innerHTML={p.description}></div>)}
+    </div>
 </div>
 
-const groupPricing = (acc, crr)=>{
+const groupPricing = (acc: Record<string, Price[]>, crr: Price)=>{
     acc[crr.group] = [...(acc[crr.group] ?? []), crr]
     return acc
 }
@@ -24,7 +29,6 @@ const groupPricing = (acc, crr)=>{
 export default function Index() {
 
     const pricing = createAsync( ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Pricing"}).parse() );  
-    //const newPricing: Record<"string", {group:string, description:string}[]> = (pricing() ?? []).reduce(, {})
 
     return <div style={{height: "120vh"}}>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
@@ -39,7 +43,13 @@ export default function Index() {
             <Suspense fallback={<p>Loading..</p>}>
                 <Switch>
                     <Match when={pricing()}>
-                        {Object.values((pricing() ?? []).reduce(groupPricing, {})).map(group=><><Pricing items={group} /> <hr /></>)}
+                        {
+                            (Object.values(
+                                (pricing() ?? [])
+                                .reduce(groupPricing, {})
+                            ) as [Price[]])
+                            .map((group: Price[])=><><Pricing items={group} /> <hr /></>)
+                        }
                     </Match>
                 </Switch>
             </Suspense>
