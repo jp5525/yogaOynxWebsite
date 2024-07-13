@@ -1,11 +1,11 @@
 import { WebsiteData } from "~/types";
-import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
+//import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
 import { Router, Route } from "@solidjs/router";
 import { createContext,createResource, Suspense } from "solid-js";
 import Root from "./components/template"
 import pages from "./pages"
 
-const parser = new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc")
+//const parser = new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc")
 
 export const AppContext = createContext<WebsiteData>()
 
