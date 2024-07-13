@@ -6,7 +6,4 @@ export default defineConfig({
         baseURL: process.env.BASE_PATH,
         preset: "static"
       },
-      vite:{
-        
-      },
   });

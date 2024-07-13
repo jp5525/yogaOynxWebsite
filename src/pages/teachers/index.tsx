@@ -3,15 +3,14 @@ import { addBaseUrl } from "~/util";
 import "../../app.css"
 import styles  from "./index.module.css"
 import pageStyle from "../../styles/page.module.css"
-
-import { useContext } from "solid-js";
-import { AppContext } from "~/app";
-
+import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
+import { createAsync } from "@solidjs/router";
+import { Suspense, Switch, Match } from "solid-js";
 
 export default function Index() {
 
-    const {teachers =[]} = useContext(AppContext) as any ?? {}
-
+    const teachers = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Teachers"}).parse() );
+    
     return <div style={{height: "120vh"}}>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('teachers_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
@@ -30,22 +29,27 @@ export default function Index() {
         </div>
 
         <div id={styles["section-3"]}>
-            {teachers.map(
-                    ({name, description, image}: {name:string, description: string, image: string})=>
-                <div>
-                    <div class={styles.profile}>
-                        <div class={styles["profile-image"]}>
-                            <img src={image} />
+            <Suspense fallback={<p>Loading..</p>}>
+            <Switch>
+                <Match when={teachers()}>
+                    {teachers().map(
+                            ({name, description, image}: {name:string, description: string, image: string})=>
+                        <div>
+                            <div class={styles.profile}>
+                                <div class={styles["profile-image"]}>
+                                    <img src={image} />
+                                </div>
+                                <div class={styles["profile-description"]}>
+                                    <h2>{name}</h2>
+                                    <div innerHTML={description}></div>
+                                </div>
+                            </div>
+                            <hr class={styles.teacher}/>
                         </div>
-                        <div class={styles["profile-description"]}>
-                            <h2>{name}</h2>
-                            <div innerHTML={description}></div>
-                        </div>
-                    </div>
-                    <hr class={styles.teacher}/>
-                </div>
-            )}
-          
+                    )}
+                </Match >
+            </Switch >
+          </Suspense>
 
         </div>
       </div>
