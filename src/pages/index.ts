@@ -1,7 +1,9 @@
+import {clientOnly } from "@solidjs/start"
+
 import Home from "./home"
-import Teachers from "./teachers"
+const Teachers = clientOnly(()=>import("./teachers"))
 import Classes from "./classes"
-import Pricing from "./pricing"
+const Pricing = clientOnly(()=>import("./pricing"))
 import Contact from "./contact"
 
 export default [
