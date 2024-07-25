@@ -27,6 +27,9 @@ jobs:
       - name: create .nojekyll
         run: touch .output/public/.nojekyll
 
+      - name: create CNAME
+        run: echo "yogaonyx.net" > .output/public/CNAME
+
       - name: deploy pages
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
