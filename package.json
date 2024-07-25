@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vinxi dev",
-    "build": "vinxi build && cp ./CNAME ./output/public  ",
+    "build": "vinxi build ",
     "start": "vinxi start"
   },
   "dependencies": {
