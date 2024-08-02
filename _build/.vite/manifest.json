@@ -1,27 +1,27 @@
 {
   "_client-!~{002}~.js": {
-    "file": "assets/client-DOUa3Fnq.css",
+    "file": "assets/client-lZ7ej_Q1.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-Cyo2pQ84.js": {
-    "file": "assets/client-Cyo2pQ84.js",
+  "_client-mqNK3KLT.js": {
+    "file": "assets/client-mqNK3KLT.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
       "src/pages/pricing/index.tsx"
     ],
     "css": [
-      "assets/client-DOUa3Fnq.css"
+      "assets/client-lZ7ej_Q1.css"
     ],
     "assets": [
       "assets/wood-B7vlxAf2.jpg"
     ]
   },
-  "_index-B-dut0aL.js": {
-    "file": "assets/index-B-dut0aL.js",
+  "_index-CBEWLbSA.js": {
+    "file": "assets/index-CBEWLbSA.js",
     "name": "index",
     "imports": [
-      "_client-Cyo2pQ84.js"
+      "_client-mqNK3KLT.js"
     ]
   },
   "public/wood.jpg": {
@@ -29,38 +29,38 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-C7F7nUk-.js",
+    "file": "assets/index-CL5K9mr1.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-Cyo2pQ84.js",
-      "_index-B-dut0aL.js"
+      "_client-mqNK3KLT.js",
+      "_index-CBEWLbSA.js"
     ],
     "css": [
       "assets/index-CujjTgVT.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-BfrfoUyX.js",
+    "file": "assets/index-BX05A72X.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-Cyo2pQ84.js",
-      "_index-B-dut0aL.js"
+      "_client-mqNK3KLT.js",
+      "_index-CBEWLbSA.js"
     ],
     "css": [
       "assets/index-C9MYPP76.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-BGpSdpka.js",
+    "file": "assets/client-Ce5k-a0U.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-Cyo2pQ84.js"
+      "_client-mqNK3KLT.js"
     ]
   }
 }
