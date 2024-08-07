@@ -3,8 +3,8 @@
     "file": "assets/client-Z4Ywuktx.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-CRz-kga0.js": {
-    "file": "assets/client-CRz-kga0.js",
+  "_client-B7igzzI_.js": {
+    "file": "assets/client-B7igzzI_.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -17,11 +17,11 @@
       "assets/wood-B7vlxAf2.jpg"
     ]
   },
-  "_index-DPFdVF3h.js": {
-    "file": "assets/index-DPFdVF3h.js",
+  "_index-DtBzzLhM.js": {
+    "file": "assets/index-DtBzzLhM.js",
     "name": "index",
     "imports": [
-      "_client-CRz-kga0.js"
+      "_client-B7igzzI_.js"
     ]
   },
   "public/wood.jpg": {
@@ -29,38 +29,38 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-BIPDj43-.js",
+    "file": "assets/index-C9yc6ci6.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-CRz-kga0.js",
-      "_index-DPFdVF3h.js"
+      "_client-B7igzzI_.js",
+      "_index-DtBzzLhM.js"
     ],
     "css": [
       "assets/index-CujjTgVT.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-C11IZBRI.js",
+    "file": "assets/index-DqJInkF5.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-CRz-kga0.js",
-      "_index-DPFdVF3h.js"
+      "_client-B7igzzI_.js",
+      "_index-DtBzzLhM.js"
     ],
     "css": [
       "assets/index-C9MYPP76.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DIaa-sED.js",
+    "file": "assets/client-CU0pHmJ8.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-CRz-kga0.js"
+      "_client-B7igzzI_.js"
     ]
   }
 }
