@@ -1,10 +1,18 @@
-.parallax-wrapper * {
+ .parallax * {
     z-index: 2;
+} 
+
+.parallax-wrapper{
+    position: relative;
+}
+
+.parallax{
+    position: absolute;
 }
 
 .parallax-wrapper .parallax{
-    z-index: 1;
-    position: absolute;
+    z-index: -1;
+    
     top: 0;
     bottom: 0;
     left: 0;
