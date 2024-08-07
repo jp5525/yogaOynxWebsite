@@ -1,27 +1,27 @@
 {
   "_client-!~{002}~.js": {
-    "file": "assets/client-lZ7ej_Q1.css",
+    "file": "assets/client-Z4Ywuktx.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-mqNK3KLT.js": {
-    "file": "assets/client-mqNK3KLT.js",
+  "_client-CRz-kga0.js": {
+    "file": "assets/client-CRz-kga0.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
       "src/pages/pricing/index.tsx"
     ],
     "css": [
-      "assets/client-lZ7ej_Q1.css"
+      "assets/client-Z4Ywuktx.css"
     ],
     "assets": [
       "assets/wood-B7vlxAf2.jpg"
     ]
   },
-  "_index-CBEWLbSA.js": {
-    "file": "assets/index-CBEWLbSA.js",
+  "_index-DPFdVF3h.js": {
+    "file": "assets/index-DPFdVF3h.js",
     "name": "index",
     "imports": [
-      "_client-mqNK3KLT.js"
+      "_client-CRz-kga0.js"
     ]
   },
   "public/wood.jpg": {
@@ -29,38 +29,38 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-CL5K9mr1.js",
+    "file": "assets/index-BIPDj43-.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-mqNK3KLT.js",
-      "_index-CBEWLbSA.js"
+      "_client-CRz-kga0.js",
+      "_index-DPFdVF3h.js"
     ],
     "css": [
       "assets/index-CujjTgVT.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-BX05A72X.js",
+    "file": "assets/index-C11IZBRI.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-mqNK3KLT.js",
-      "_index-CBEWLbSA.js"
+      "_client-CRz-kga0.js",
+      "_index-DPFdVF3h.js"
     ],
     "css": [
       "assets/index-C9MYPP76.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-Ce5k-a0U.js",
+    "file": "assets/client-DIaa-sED.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-mqNK3KLT.js"
+      "_client-CRz-kga0.js"
     ]
   }
 }
