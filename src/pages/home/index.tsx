@@ -34,7 +34,7 @@ export default function Index() {
           </div>
 
           <div id={styles.image}>
-            <Parallax image={addBaseUrl("home_page_section_2.jpg")}></Parallax>
+            <Parallax style={{height:"100%"}} image={addBaseUrl("home_page_section_2.jpg")}></Parallax>
           </div>
         </div>
     </div>;
