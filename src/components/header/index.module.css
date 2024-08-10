@@ -93,7 +93,7 @@
     display: none;
   }
 
-  @media (max-width: 1200px){
+  @media (max-width: 1500px){
     .hide-on-desktop{
       display: flex;
       justify-content: center;
