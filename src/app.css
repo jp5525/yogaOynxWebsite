@@ -138,6 +138,27 @@ input[type=submit]:hover {
   opacity: 0.6;
 }
 
+.btn{
+  background-color: black;
+  color: white;
+  border-radius: 0 ;
+  font-size: 18px;
+  padding: 0.6em 1.4em !important;
+  font-weight: 700;
+  margin: 0 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.7em;
+  transition: color 300ms ease 0ms,background-color 300ms ease 0ms,border 300ms ease 0ms;
+display: inline-block;
+}
+.btn:hover{
+  
+  color: #ffffff;
+  border-color: #ccaa53;
+  background-color: #ccaa53;
+}
+
 
 
 

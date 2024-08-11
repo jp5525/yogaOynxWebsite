@@ -37,18 +37,19 @@
     width: 50%;
     margin-right: 30px;
 }
-#nav, ul{
+#nav, #nav-ul{
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-items: center;
   }
   
-  ul{
+  #nav-ul{
     background-color: black;
+    margin: 0;
   }
 
-  li{
+  #nav-ul li{
     display: block;
     padding: 1em;
     flex: 1;

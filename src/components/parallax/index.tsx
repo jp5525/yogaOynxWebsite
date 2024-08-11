@@ -7,7 +7,8 @@ type ParallaxProps = {
     class?: string;
     style?: JSX.CSSProperties;
     opacity?: number,
-    fixed?: boolean
+    fixed?: boolean,
+    focus?: string
 }
 
 export default (props: ParallaxProps)=>{
@@ -17,7 +18,8 @@ export default (props: ParallaxProps)=>{
             style={{
                 "background-image": `url('${props.image}')`, 
                 ...(props.opacity?{opacity: props.opacity}: {}),
-                ...(props.fixed == false?{["background-attachment"]: "unset"}: {})
+                ...(props.fixed == false?{["background-attachment"]: "unset"}: {}),
+                ...(props.focus ?{["background-position"]: props.focus}: {})
             }}
         ></div>
         {props.children}

@@ -40,7 +40,7 @@ export default ()=>{
             <a onClick={()=>setCrrPage(baseUrl? baseUrl : "/")} href={baseUrl? baseUrl : "/"}><img src={addBaseUrl("logo.png")}/></a>
         </div>
         <div id={styles.nav}>
-            <ul classList={{[styles["hide-on-mobile"]]: !crrOpen()}}>
+            <ul id={styles["nav-ul"]} classList={{[styles["hide-on-mobile"]]: !crrOpen()}}>
                 {
                     navItems.map(navItem=>
                         <li class={navItem.path===crrPage()?styles["current-page"]: ""}>

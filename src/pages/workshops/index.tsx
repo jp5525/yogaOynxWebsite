@@ -7,12 +7,19 @@ import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
 import { createAsync } from "@solidjs/router";
 import { Suspense, Switch, Match } from "solid-js";
 
-const YogaClass = (props: { class:{title: string, description: string, image:string, date: string}})=>{
-    const {title, description, image, date} = props.class;
+const YogaClass = (props: { class:{title: string, description: string, image:string, date: string, focus?: string}})=>{
+    const {title, description, image, date, focus} = props.class;
     
     return <div class={styles.class}>
         <div class={styles["class-image"]}>
-            <img src={addBaseUrl(image)} />
+            <Parallax 
+                class={styles["host-img"]} 
+                image={image} 
+                fixed={false}
+                opacity={1}
+                focus={focus}
+            ></Parallax>
+            {/* <img src={image} /> */}
         </div>
         <div class={styles["class-description"]}>
             <div>
@@ -29,7 +36,7 @@ export default function Index() {
     const workshops = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Workshops"}).parse() ) ;
 
     return <div style={{height: "120vh"}}>
-        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
+        <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('workshops.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>Workshops</h2>
               <p>Special Offers</p>              
@@ -42,6 +49,9 @@ export default function Index() {
                     <p>Explore Yoga In New Ways</p>
                 </blockquote>
                 <p class="copy">Our workshops offer the adventure of yoga in a variety of options. Whether you’re seeking play and fun or gentleness and rest, we have something for you.</p>
+                <div class={styles["center"]}>
+                    <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> Sign Up </a>    
+                </div>
             </div>
         </div>
 
