@@ -103,10 +103,10 @@
     }
 
     .hide-on-mobile{
-      display: none;
+      display: none !important;
     }
 
-    #nav, ul{
+    #nav, #nav-ul{
       flex-direction: column;
     }
   }
