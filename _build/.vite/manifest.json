@@ -3,8 +3,8 @@
     "file": "assets/client-Cedfmj3I.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-DAyShibo.js": {
-    "file": "assets/client-DAyShibo.js",
+  "_client-BJO2LLWD.js": {
+    "file": "assets/client-BJO2LLWD.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -18,11 +18,11 @@
       "assets/wood-B7vlxAf2.jpg"
     ]
   },
-  "_index-uCsTvNkC.js": {
-    "file": "assets/index-uCsTvNkC.js",
+  "_index-MI-6HiGk.js": {
+    "file": "assets/index-MI-6HiGk.js",
     "name": "index",
     "imports": [
-      "_client-DAyShibo.js"
+      "_client-BJO2LLWD.js"
     ]
   },
   "public/wood.jpg": {
@@ -30,51 +30,51 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-B-nMt5tj.js",
+    "file": "assets/index-DUFeYWJ5.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-DAyShibo.js",
-      "_index-uCsTvNkC.js"
+      "_client-BJO2LLWD.js",
+      "_index-MI-6HiGk.js"
     ],
     "css": [
       "assets/index-CujjTgVT.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-Bu2L90PN.js",
+    "file": "assets/index-BsLDUIEz.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-DAyShibo.js",
-      "_index-uCsTvNkC.js"
+      "_client-BJO2LLWD.js",
+      "_index-MI-6HiGk.js"
     ],
     "css": [
       "assets/index-C9MYPP76.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-BjHAc83C.js",
+    "file": "assets/index-Oltx3nOt.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-DAyShibo.js",
-      "_index-uCsTvNkC.js"
+      "_client-BJO2LLWD.js",
+      "_index-MI-6HiGk.js"
     ],
     "css": [
       "assets/index-oAr9bBuY.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DjPtHUS4.js",
+    "file": "assets/client-CHJl05Lj.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-DAyShibo.js"
+      "_client-BJO2LLWD.js"
     ]
   }
 }
