@@ -22,7 +22,7 @@ export default ()=>{
         { title:"Class\u00A0Schedule", path:"https://www.mindbodyonline.com/explore/locations/yoga-onyx", target: "_blank"},
         { title:"Pricing", path: `${baseUrl}pricing`},
         { title:"Contact", path:`${baseUrl}contact`},
-        {title:"Retreats", path:`${baseUrl}retreats`},
+        // {title:"Retreats", path:`${baseUrl}retreats`},
         {title:"Workshops", path:`${baseUrl}workshops`}
     ]
 
