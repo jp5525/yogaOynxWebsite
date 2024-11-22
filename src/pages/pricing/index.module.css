@@ -27,6 +27,10 @@
     flex: 3
 }
 
+#mt-16{
+    margin-top: 16px;
+}
+
 @media(max-width: 1200px){
     .pricing{
         display: block;

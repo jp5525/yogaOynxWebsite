@@ -15,7 +15,10 @@ export default function Index() {
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('teachers_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>Teachers</h2>
-              <p>Meet Our Team</p>              
+              <p>Meet Our Team</p>   
+              <div class="center" id={pageStyle["mt-16"]}>
+                <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> See Schedule </a>    
+              </div>                    
             </div>
         </Parallax>
 
