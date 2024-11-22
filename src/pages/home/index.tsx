@@ -2,47 +2,43 @@ import { addBaseUrl } from "~/util"
 import Parallax from "~/components/parallax";
 import "../../app.css"
 import styles from "./index.module.css"
-import {
-  ModalHeader, 
-  ModalBody, 
-  ModalFooter, 
-  Modal,
-  ModalTitle, 
-  ModalDialog
-} from "solid-bootstrap"
 import {createSignal} from "solid-js"
 
 export default function Index() {
-    const [show, setShow] = createSignal(false);
-    const handleOpen = () => setShow(true);
-    const handleClose = () => setShow(false);
+    const [show, setShow] = createSignal({[styles.modal]: true, [styles.dn]: true});
+    const toggleModal = () =>{
+      let display = show()[styles.dn];
 
-    setTimeout(() => handleOpen(), 3500)
+      setShow({
+        [styles.modal]: true, 
+        [styles.dn]: !display
+      })
+    }
+    setTimeout(() => toggleModal(), 2500)
     return <div style={{height: "120vh"}}>    
-        <Modal 
-          show={show()} 
-          onHide={handleClose} 
-          size="lg" 
-          backdropClass="modal-background"
-          >
-          <ModalHeader closeButton>
-            <ModalTitle>Black Friday Sale!</ModalTitle>
-          </ModalHeader>
-          
-          <ModalBody>
-            <p class="copy"><strong>6 Month Unlimited</strong> – <span style="color: #ccaa53;">$119.00</span> billed every month for the first 6 months. purchase this membership & receive ONE additional month FREE.</p>
-            <p class="copy"><strong>6 Month Unlimited Prepaid</strong> – <span style="color: #ccaa53;">$700.00</span> billed one time. purchase this membership & receive ONE additional month FREE.</p>
-            <p class="copy"><strong>12 Month Unlimited</strong> – <span style="color: #ccaa53;">$109.00</span> billed every month for the first 12 months. purchase this membership & receive TWO additional months FREE.</p>
-            <p class="copy"><strong>12 Month Unlimited Prepaid</strong> – <span style="color: #ccaa53;">$1200.00</span> billed one time & receive TWO additional months FREE.</p>
-            <p class="copy"><strong>10% Off</strong> – all class packages.</p>
 
-              <div class="center">
-                <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> Claim Offer </a>    
-              </div>
-
+        <div classList={show()}>
+          <div class={styles["modal-background"]} on:click={toggleModal}></div>
+          <div class={styles["modal-content"]}>
+            <div class={styles["modal-header"]}>
+              <h4>Black Friday Sale!</h4>
+            </div>
             
-          </ModalBody>
-        </Modal>
+            <div class={styles["modal-body"]}>
+              <p class="copy"><strong>6 Month Unlimited</strong> – <span style="color: #ccaa53;">$119.00</span> billed every month for the first 6 months. purchase this membership & receive ONE additional month FREE.</p>
+              <p class="copy"><strong>6 Month Unlimited Prepaid</strong> – <span style="color: #ccaa53;">$700.00</span> billed one time. purchase this membership & receive ONE additional month FREE.</p>
+              <p class="copy"><strong>12 Month Unlimited</strong> – <span style="color: #ccaa53;">$109.00</span> billed every month for the first 12 months. purchase this membership & receive TWO additional months FREE.</p>
+              <p class="copy"><strong>12 Month Unlimited Prepaid</strong> – <span style="color: #ccaa53;">$1200.00</span> billed one time & receive TWO additional months FREE.</p>
+              <p class="copy"><strong>10% Off</strong> – all class packages.</p>
+
+                <div class="center">
+                  <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> Claim Offer </a>    
+                </div>
+              
+            </div>
+          </div>
+        </div>
+
         <Parallax class={styles.hero} style={{ "min-height": "85Vh"}} image={addBaseUrl('home_page_hero_banner.jpg')}>
             <div id={styles["welcome-box"]}>
               <h2>Welcome</h2>

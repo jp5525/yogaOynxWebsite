@@ -5,6 +5,7 @@ export default defineConfig({
       server: {
         baseURL: process.env.BASE_PATH,
         preset: "static",
+        compatibilityDate:'2024-11-21'
       },
        
   });

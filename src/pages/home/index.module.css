@@ -36,6 +36,48 @@
     transition: color 300ms ease 0ms,background-color 300ms ease 0ms,border 300ms ease 0ms;
 }
 
+.modal{
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 10;
+    
+  }
+
+  .modal-background{
+    background: black;
+    opacity: 0.8;
+
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 10;
+  }
+  .modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: black;
+    width: 50%;
+    border-radius: 8px;
+    z-index: 20;
+  }
+
+
 #action-items a.hollow-btn{
     background-color: unset;
     color: white;    
@@ -92,6 +134,12 @@
     transition: color 300ms ease 0ms,background-color 300ms ease 0ms,border 300ms ease 0ms;
   }
 
+  @media (max-width: 1200px){
+    .modal-content{
+        width: 75%
+    }
+  }
+
   @media (max-width: 760px) {
     .hero{
         justify-content: center;
@@ -108,5 +156,14 @@
         width: 100%;
         text-align: center;
     }
+
+    .modal-content{
+        width: 90%
+    }
+  }
+
+  
+  .dn{
+    display: none;
   }
 
