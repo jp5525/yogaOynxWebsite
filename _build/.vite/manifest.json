@@ -1,10 +1,10 @@
 {
   "_client-!~{002}~.js": {
-    "file": "assets/client-Cedfmj3I.css",
+    "file": "assets/client-BsHNwHIy.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-BJO2LLWD.js": {
-    "file": "assets/client-BJO2LLWD.js",
+  "_client-D4jwUXhv.js": {
+    "file": "assets/client-D4jwUXhv.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -12,17 +12,17 @@
       "src/pages/workshops/index.tsx"
     ],
     "css": [
-      "assets/client-Cedfmj3I.css"
+      "assets/client-BsHNwHIy.css"
     ],
     "assets": [
       "assets/wood-B7vlxAf2.jpg"
     ]
   },
-  "_index-MI-6HiGk.js": {
-    "file": "assets/index-MI-6HiGk.js",
+  "_index-bEUqt8RF.js": {
+    "file": "assets/index-bEUqt8RF.js",
     "name": "index",
     "imports": [
-      "_client-BJO2LLWD.js"
+      "_client-D4jwUXhv.js"
     ]
   },
   "public/wood.jpg": {
@@ -30,51 +30,51 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-DUFeYWJ5.js",
+    "file": "assets/index-9xRG6wqd.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-BJO2LLWD.js",
-      "_index-MI-6HiGk.js"
+      "_client-D4jwUXhv.js",
+      "_index-bEUqt8RF.js"
     ],
     "css": [
-      "assets/index-CujjTgVT.css"
+      "assets/index-DT0x9Dgs.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-BsLDUIEz.js",
+    "file": "assets/index-CE1Rbz5A.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-BJO2LLWD.js",
-      "_index-MI-6HiGk.js"
+      "_client-D4jwUXhv.js",
+      "_index-bEUqt8RF.js"
     ],
     "css": [
-      "assets/index-C9MYPP76.css"
+      "assets/index-BHhe41MQ.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-Oltx3nOt.js",
+    "file": "assets/index-Bmwag55s.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-BJO2LLWD.js",
-      "_index-MI-6HiGk.js"
+      "_client-D4jwUXhv.js",
+      "_index-bEUqt8RF.js"
     ],
     "css": [
-      "assets/index-oAr9bBuY.css"
+      "assets/index-CkcWPSoR.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-CHJl05Lj.js",
+    "file": "assets/client-9RXSa3pl.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-BJO2LLWD.js"
+      "_client-D4jwUXhv.js"
     ]
   }
 }
