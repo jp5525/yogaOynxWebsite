@@ -25,9 +25,9 @@ export default function Index() {
             </div>
             
             <div class={styles["modal-body"]}>
-              <p class="copy"><strong>6 Month Unlimited</strong> – <span style="color: #ccaa53;">$119.00</span> billed every month for the first 6 months. purchase this membership & receive ONE additional month FREE.</p>
+              <p class="copy"><strong>6 Month Unlimited</strong> – <span style="color: #ccaa53;">$119.00</span> billed monthly for 6 months. purchase this membership & receive ONE additional month FREE.</p>
               <p class="copy"><strong>6 Month Unlimited Prepaid</strong> – <span style="color: #ccaa53;">$700.00</span> billed one time. purchase this membership & receive ONE additional month FREE.</p>
-              <p class="copy"><strong>12 Month Unlimited</strong> – <span style="color: #ccaa53;">$109.00</span> billed every month for the first 12 months. purchase this membership & receive TWO additional months FREE.</p>
+              <p class="copy"><strong>12 Month Unlimited</strong> – <span style="color: #ccaa53;">$109.00</span> billed monthly for 12 months. purchase this membership & receive TWO additional months FREE.</p>
               <p class="copy"><strong>12 Month Unlimited Prepaid</strong> – <span style="color: #ccaa53;">$1200.00</span> billed one time & receive TWO additional months FREE.</p>
               <p class="copy"><strong>10% Off</strong> – all class packages.</p>
 
