@@ -86,7 +86,7 @@ export default function Index() {
                     <h3 class={styles.yellow}>Hosted by Kelly Cvetovski</h3>
                     <div class={styles.kelly}>
                         <div>
-                            <img src="./kelly.jpeg" />
+                            <img src={addBaseUrl("./kelly.jpeg")} />
                         </div>
                         <div>
                             <p>Kelly is a physical therapist and 500 hour RYT. She loves traveling and incorporating yoga into travels, whether that is taking classes around the state of Michigan or participating and teaching in international retreats.</p>
