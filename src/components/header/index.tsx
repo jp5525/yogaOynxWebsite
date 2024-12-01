@@ -21,9 +21,9 @@ export default ()=>{
         { title:"Classes", path:`${baseUrl}classes`},
         { title:"Class\u00A0Schedule", path:"https://www.mindbodyonline.com/explore/locations/yoga-onyx", target: "_blank"},
         {title:"Workshops", path:`${baseUrl}workshops`},
+        {title:"Retreats", path:`${baseUrl}retreats`},
         { title:"Pricing", path: `${baseUrl}pricing`},
         { title:"Contact", path:`${baseUrl}contact`},
-       // {title:"Retreats", path:`${baseUrl}retreats`},
     ]
 
     createEffect(() => {

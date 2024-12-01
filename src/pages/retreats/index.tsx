@@ -58,132 +58,85 @@ export default function Index() {
 
         <div id={pageStyle["section-2"]}>
             <div class={styles["center-text"]}>
-                <h2 class={styles.yellow}>Grand Haven</h2>
-                <h3>OCT 3 - OCT 6</h3>
+                <h2 class={styles.yellow}>IN-HOUSE RETREAT</h2>
+                <h3>FEBRUARY 2ND, 2025</h3>
                 <a href={`#${styles["section-7"]}`} class={styles.btn}> Reserve </a>
             </div>
         </div>
 
         <div id={styles["section-3"]}>
-            <h2 classList={{[styles.yellow]: true, [styles["center-text"]]: true}}>Hosts</h2>
-
-            <div class={styles.center}>
-                <Host image="samantha.jpg" name="Samantha Piro" description="Samantha is a licensed professional counselor and a 500 hour RYT. She is passionate about combining the healing modalities of talk therapy and movement. Samantha loves to find the balance of stillness and play in nature." />
-                <Host image="kelly.jfif" name="Kelly Cvetovski" description="Kelly is a physical therapist and 500 hour RYT. She loves traveling and incorporating yoga into travels, whether that is taking classes around the state of Michigan or participating and teaching in international retreats." />
-                <Host image="shelby.jpg" name="Shelby Spahar" description="Shelby is studying hospitality management at Cornell University with plans to open up her own inn upon graduation. Shelby has been in the service industry for the last 10 years, traveling throughout the world, learning about food across cultures." />
+            <div classList={{ [styles.center]: true, [styles.col]: true}}>
+                <h2 class={styles.yellow}>FEBRUARY 2ND. 8AM - 4:30PM</h2>
+                <hr />
+                <p>Taking place in our peaceful studio space, our day-long local yoga staycation offers an immersive experience for relaxation and rejuvenation. The day begins with a grounding yoga session with gentle flows to awaken the body and calm the mind. Afterward, a serene meditation session helps participants deepen their mindfulness practice and cultivate inner peace. Throughout the day, guests enjoy nourishing meals offering both meat or plant-based dishes that support both body and soul. Midday, indulge in a soothing massage to release tension and enhance relaxation. As the retreat progresses, there are opportunities to connect with like-minded individuals in a tranquil atmosphere, allowing you to recharge and rediscover balance. Whether you're a seasoned yogi or a first-timer, the retreat provides a rejuvenating experience, leaving you feeling refreshed, centered, and renewed. Give yourself some self care this winter. </p>
             </div>
 
-        </div>
-
-        <div id={styles["section-4"]} >
-            <Parallax style={{ "min-height": "80Vh"}} opacity={0.60} image={addBaseUrl('Mainplace.webp')}>
-                <div style={{ "min-height": "80Vh"}} classList={{[styles.center]: true, [styles["center-text"]]: true}}>
-                    <div classList={{[styles.content]: true, [styles.center]: true}}>
-                        <h2>Accommodations</h2>
-                        <p>We will be staying in a beautiful 8 bed, 3.5 bath cabin. Nestled between Lake Michigan and Ottawa Sands Lake. This cabin has wonderful view of the water and will be the perfect place to get away  for the weekend.</p>
-
+            <div class={styles.even}>
+                <div class={styles.left}>
+                    <h3 class={styles.yellow}>schedule:</h3>
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>8am</div>
+                        <div class={styles.desc}>Tea & Intention Setting</div>
                     </div>
 
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>9am</div>
+                        <div class={styles.desc}>Vinyasa Yoga</div>
+                    </div>
+
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>10:30am</div>
+                        <div class={styles.desc}>Yin Yoga</div>
+                    </div>
+
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>12pm</div>
+                        <div class={styles.desc}>Lunch</div>
+                    </div>
+
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>1pm</div>
+                        <div class={styles.desc}>Massage & Vision Board Creation</div>
+                    </div>
+
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>3pm</div>
+                        <div class={styles.desc}>Meditation</div>
+                    </div>
+
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>3:30</div>
+                        <div class={styles.desc}>Journaling</div>
+                    </div>
+
+                    <hr />
+                    <div class={styles.schedule}>
+                        <div class={styles.time}>4pm</div>
+                        <div class={styles.desc}>Closing Remarks</div>
+                    </div>
                 </div>
-            </Parallax>
-
-        </div>
-
-         <div id={styles["section-5"]} classList={{[styles.center]: true, [styles["space-between"]]: true}}>
-            <div class={styles.left}>
-                <Parallax class={styles["scale-img"]}  fixed={false} image={addBaseUrl('grandHaven.jpg')} ></ Parallax>
-            </div>
-            <div >
                 <div>
-                    <h2 class={styles.yellow}>Schedule</h2>
-                    <Accordion collapsible>
-                        <Accordion.Item value="0" class={styles["accordion-item"]}>
-                        <Accordion.Trigger>
-                            <Accordion.Header>Thursday</Accordion.Header>
-                            <div class={styles.icon}><span class="material-symbols-outlined">keyboard_arrow_down</span></div>
-                        </Accordion.Trigger>
-                            
-                            <Accordion.Content>
-                                <ul class={styles["normal-ul"]}>
-                                    <li>4-6pm check in</li>
-                                    <li>7pm meditation & intention setting</li>
-                                </ul>
-                            </Accordion.Content>
-                        </Accordion.Item>
-
-                        <Accordion.Item value="1" class={styles["accordion-item"]}>
-                            <Accordion.Trigger>
-                                <Accordion.Header>Friday & Saturday</Accordion.Header>
-                                <div class={styles.icon}><span class="material-symbols-outlined">keyboard_arrow_down</span></div>
-                            </Accordion.Trigger>
-                            <Accordion.Content>
-                                <ul class={styles["normal-ul"]}>
-                                    <li>8am coffee & light refreshments</li>
-                                    <li>9am vinyasa yoga</li>
-                                    <li>1030am brunch</li>
-                                    <li>12pm scheduled activity</li>
-                                    <li>3pm free time</li>
-                                    <li>5pm dinner</li>
-                                    <li>630pm yin yoga</li>
-                                </ul>
-                            </Accordion.Content>
-                        </Accordion.Item>
-
-                        <Accordion.Item value="2" class={styles["accordion-item"]}>
-                            <Accordion.Trigger>
-                                <Accordion.Header>Sunday</Accordion.Header>
-                                <div class={styles.icon}><span class="material-symbols-outlined">keyboard_arrow_down</span></div>
-                            </Accordion.Trigger>
-                            <Accordion.Content>
-                                <ul class={styles["normal-ul"]}>
-                                    <li>9am vinyasa yoga</li>
-                                    <li>1030 closing meditation</li>
-                                    <li>1130am farewell brunch</li>
-                                </ul>
-                            </Accordion.Content>
-                        </Accordion.Item>
-                    </Accordion>
-                </div>
-            </div>
-        </div>
-
-        <div id={styles["section-6"]} classList={{[styles.center]: true, [styles["space-between"]]: true}}>
-            <div class={styles.left}>
-                <div>
-                    <h2 class={styles.yellow}>Included In Your Stay</h2>
-                    <ul class={styles["normal-ul"]}>
-                        <li>Accommodations (Thursday-Sunday)</li>
-                        <li>Meals Friday - Sunday</li>
-                        <li>Yoga twice a day Friday & Saturday, once on Sunday</li>
-                        <li>2 Guided Meditations</li>
-                        <li>Friday hike at Rosey Mound</li>
-                        <li>Saturday cooking class with Shelby Spahar</li>
-                        <li>One hour massage</li>
-                        <li>30-minute counseling session with Samantha Piro, LPC</li>
-                    </ul>
-
-                </div>
-            </div>
-            <div class={styles.right}>
-                <Parallax class={styles["scale-img"]} fixed={false} image={addBaseUrl('sunset.webp')} ></ Parallax>
-            </div>
-        </div>
-
-        <div id={styles["section-7"]}>
-            <Parallax style={{ "min-height": "85Vh"}} image={addBaseUrl('outsideGrandHaven.webp')}>
-                <div  style={{ "min-height": "85Vh"}} class={styles.content}>
-                    <div class={styles["center-text"]}>
-                        <h2 class={styles.yellow}>Reserve a Spot</h2>
-
-                        <div class={styles.center}>
-                            <Room image="queenbunk.webp" url={queenBunkUrl} price="$1225" name="Queen Bunk" description="A queen sized bed In a room that will be shared with 1 other person." />
-                            <Room image="queenbed.webp" url={queenBedUrl} price="$1300" name="Queen Bed" description="A queen sized bed In a private room." />
-                            <Room image="kingbed.webp" url={kingBedUrl}price="$2000 ($2500 if shared with a friend)" name="King Bed" description="A King sized bed In a private room " />
+                    <h3 class={styles.yellow}>Hosted by Kelly Cvetovski</h3>
+                    <div class={styles.kelly}>
+                        <div>
+                            <img src="./kelly.jpeg" />
                         </div>
-
+                        <div>
+                            <p>Kelly is a physical therapist and 500 hour RYT. She loves traveling and incorporating yoga into travels, whether that is taking classes around the state of Michigan or participating and teaching in international retreats.</p>
+                        </div>
                     </div>
                 </div>
-            </Parallax>
-        </div> 
+            </div>
+
+        </div>
+
+        
       </div>
   }
