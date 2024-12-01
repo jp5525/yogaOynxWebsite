@@ -3,47 +3,7 @@ import { addBaseUrl } from "~/util"
 import styles  from "./index.module.css"
 import pageStyle from "../../styles/page.module.css"
 import "../../app.css"
-import { Accordion } from "@kobalte/core/accordion"
 
-type HostT = {
-    name: string, 
-    image: string, 
-    description: string
-}
-
-type RoomT = {
-    name: string, 
-    image: string, 
-    description: string,
-    price: string,
-    url: string
-}
-
-const Host = ({name, image, description}: HostT) =>
-<div classList={{[styles.host]: true, [styles["center-text"]]: true}} >
-    <Parallax 
-        class={styles["host-img"]} 
-        image={addBaseUrl(image)} 
-        fixed={false}
-        opacity={1}
-    ></Parallax>
-    <h3>{name}</h3>
-    <p>{description}</p>
-</div>
-
-const queenBunkUrl = "https://buy.stripe.com/00g4i8bbwgUidCU288"
-const kingBedUrl = "https://buy.stripe.com/28o5mcenI47w42k4gi"
-const queenBedUrl = "https://buy.stripe.com/6oE6qg1AW6fEbuMeUV"
-
-const Room = ({name, image, description, price, url}: RoomT) =>
-<div classList={{[styles.room]: true, [styles["center-text"]]: true}} >
-    <img src={addBaseUrl(image)} />
-    <h3>{name}</h3>
-    <h5>{price}</h5>
-    <p>{description}</p>
-
-    <a href={url} class={styles.btn}> Reserve </a>
-</div>
 
 export default function Index() {
 
@@ -60,7 +20,7 @@ export default function Index() {
             <div class={styles["center-text"]}>
                 <h2 class={styles.yellow}>IN-HOUSE RETREAT</h2>
                 <h3>FEBRUARY 2ND, 2025</h3>
-                <a href={`#${styles["section-7"]}`} class={styles.btn}> Reserve </a>
+                <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class={styles.btn}> Reserve </a>
             </div>
         </div>
 
