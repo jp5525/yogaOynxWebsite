@@ -3,8 +3,8 @@
     "file": "assets/client-DYjJze5n.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-CMr-gajV.js": {
-    "file": "assets/client-CMr-gajV.js",
+  "_client-dcqHVCXz.js": {
+    "file": "assets/client-dcqHVCXz.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -18,11 +18,11 @@
       "assets/wood-B7vlxAf2.jpg"
     ]
   },
-  "_index-CBOC28Qq.js": {
-    "file": "assets/index-CBOC28Qq.js",
+  "_index-CaSDT9Jb.js": {
+    "file": "assets/index-CaSDT9Jb.js",
     "name": "index",
     "imports": [
-      "_client-CMr-gajV.js"
+      "_client-dcqHVCXz.js"
     ]
   },
   "public/wood.jpg": {
@@ -30,51 +30,51 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-CW3AGVU0.js",
+    "file": "assets/index-DdNoR_9m.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-CMr-gajV.js",
-      "_index-CBOC28Qq.js"
+      "_client-dcqHVCXz.js",
+      "_index-CaSDT9Jb.js"
     ],
     "css": [
       "assets/index-DT0x9Dgs.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-C61eaY7R.js",
+    "file": "assets/index-CQdcRgsK.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-CMr-gajV.js",
-      "_index-CBOC28Qq.js"
+      "_client-dcqHVCXz.js",
+      "_index-CaSDT9Jb.js"
     ],
     "css": [
       "assets/index-BHhe41MQ.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-DmF7bibz.js",
+    "file": "assets/index-BShh9dQB.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-CMr-gajV.js",
-      "_index-CBOC28Qq.js"
+      "_client-dcqHVCXz.js",
+      "_index-CaSDT9Jb.js"
     ],
     "css": [
       "assets/index-CkcWPSoR.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-BmYuXvHJ.js",
+    "file": "assets/client-DQj_bxIR.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-CMr-gajV.js"
+      "_client-dcqHVCXz.js"
     ]
   }
 }
