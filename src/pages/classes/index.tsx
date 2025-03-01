@@ -11,9 +11,14 @@ const classes = [
         description: "<p>The students will begin in a restorative pose as the teacher leads students to cultivate a deep diaphragmatic breath. As the focus remains on maintaining the breath, the teacher will encourage and direct movement to the body, beautifully linking the two together allowing the body to fluidly move, soften, and open.</p>",
         image: "classes_slow_flow.jpg"
     },
+    // {
+    //     title: "Slow Burn",
+    //     description: "<p>The students will begin in a restorative pose as the teacher leads students to cultivate a deep diaphragmatic breath. As the focus remains on maintaining the breath, the teacher will encourage and direct movement to the body leading to longer holding, sometimes more challenging poses, allowing the mind and body to strengthen while softening around hard edges. Cultivating an equanimity within.</p>",
+    //     image: "classes_slow_burn.jpg"
+    // },
     {
-        title: "Slow Burn",
-        description: "<p>The students will begin in a restorative pose as the teacher leads students to cultivate a deep diaphragmatic breath. As the focus remains on maintaining the breath, the teacher will encourage and direct movement to the body leading to longer holding, sometimes more challenging poses, allowing the mind and body to strengthen while softening around hard edges. Cultivating an equanimity within.</p>",
+        title: "Holy Yoga",
+        description: "<p>This Christian Yoga class invites you to deepen your connection with God through the sacred practice of yoga. As we move through each posture, we will focus on mindful breathing, body alignment, and meditative prayer. Every session is rooted in Scripture, offering a time of reflection and worship, allowing God's Word to guide and uplift you. Through gentle stretching and strengthening, you will cultivate physical, mental, and spiritual well-being while growing in faith and trust in God's presence. Whether you're new to yoga or a seasoned practitioner, this class encourages you to experience His peace, deepen your relationship with Him, and feel the transformative power of His love in every breath and movement. Join us for a holistic experience that nurtures body, mind, and spirit, all in the light of Christ. </p>",
         image: "classes_slow_burn.jpg"
     },
     {
@@ -22,20 +27,30 @@ const classes = [
         image: "classes_vinyasa.jpg"
     },
     {
+        title: "Inner Calm",
+        description: "<p>Foster inner peace and resilience in a safe place where everyone is welcome. Discover a new sense of peace in this trauma-sensitive class that balances meditation, movement and stillness.</p>",
+        image: "classes_yin_sound_healing.jpg"
+    },
+    {
         title: "Yin",
         description: "<p>This is a slower, more restorative class.</p><p>Students begin in a restorative pose while the teacher leads them to focus on the breath and quiet the mind.</p><p>The entire class involves restorative yoga poses, primarily seated or laying down, where we will spend anywhere from 2-7 minutes in each pose. The teacher will encourage the students to maintain that deeper, full belly breath, while letting go, and softening the body, allowing the student to breathe deeper into the pose, and promoting a deeper stretch. This allows the student to not only soften the muscles, but begins to retrain the connective tissue as well, changing the dynamics of the body.</p>",
         image: "classes_yin.jpg"
+    },
+    {
+        title: "Yoga Sculpt (Vinyasa-Based)",
+        description: "<p>Get ready to ignite your strength, flow with intention, and break a sweat in this high-energy class—a powerful fusion of dynamic Vinyasa flow, strength training, and mindful movement. This isn’t just any sculpt class; it’s a full-body transformation. You’ll move seamlessly through breath-driven Vinyasa sequences while incorporating light weights, bodyweight exercises, and controlled resistance training to build endurance, mobility, and lean muscle. Expect fiery core work, powerful lower-body conditioning, and sculpting upper-body drills—all woven together with the fluidity and mindfulness of yoga. You’ll leave feeling strong, balanced, and empowered—not just physically, but mentally. Whether you’re looking to elevate your yoga practice, amplify your strength, or simply challenge yourself in a new way, this class will push you to your edge and help you move with more power, grace, and confidence on and off the mat. Come ready to sweat, breathe, and sculpt the strongest version of you.</p>",
+        image: "yoga-sculpt.jpg"
     },
     {
         title: "Vin/Yin",
         description: "<p>Students will begin in a restorative pose as the teacher leads students to cultivate a deep, diaphragmatic breath. As the breath is maintained, the teacher will add movement to the body. Students will move through a sequence or multiple sequences of fluid movements, building the breath and creating heat within in the body.</p><p>Once the body is warm, students will come down by moving into a yin practice. The poses are restorative and slow. Each pose is held for a longer duration of 2-7 minutes. This class offers the perfect blend of movement and stillness.</p>",
         image: "classes_vin_yin.jpg"
     },
-    {
-        title: "Yin + Sound Healing",
-        description: "<p>Students will begin in a restorative pose as the teacher leads students to cultivate a deep, diaphragmatic breath. As the breath is maintained, the teacher will slowly incorporate gentle movements to the body. The first half of class is a traditional yin class where poses are restorative, gentle, and held for two to seven minutes… Once the physical body has opened, the second half of class is to nourish the energetic mind, body and soul through the healing vibrations of crystal sound bowls.</p>",
-        image: "classes_yin_sound_healing.jpg"
-    },
+    // {
+    //     title: "Yin + Sound Healing",
+    //     description: "<p>Students will begin in a restorative pose as the teacher leads students to cultivate a deep, diaphragmatic breath. As the breath is maintained, the teacher will slowly incorporate gentle movements to the body. The first half of class is a traditional yin class where poses are restorative, gentle, and held for two to seven minutes… Once the physical body has opened, the second half of class is to nourish the energetic mind, body and soul through the healing vibrations of crystal sound bowls.</p>",
+    //     image: "classes_yin_sound_healing.jpg"
+    // },
     {
         title: "Ashtanga",
         description: "<p>This short form Ashtanga class is fully guided and structured. The teacher will lead students through a specific series of traditional standing and seated postures and poses. Ashtanga is the foundation of all other yoga classes offered here and will help you deepen your practice with options to explore each asana.</p><p>This practice is suitable for beginners and seasoned yogi and everybody in between.</p>",
