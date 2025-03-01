@@ -11,7 +11,7 @@ const YogaClass = (props: { class:{title: string, description: string, image:str
     const {title, description, image, date, focus} = props.class;
     
     return <div class={styles.class}>
-        <div class={styles["class-image"]}>
+        {/* <div class={styles["class-image"]}>
             <Parallax 
                 class={styles["host-img"]} 
                 image={image} 
@@ -19,9 +19,9 @@ const YogaClass = (props: { class:{title: string, description: string, image:str
                 opacity={1}
                 focus={focus}
             ></Parallax>
-            {/* <img src={image} /> */}
-        </div>
-        <div class={styles["class-description"]}>
+            {/* <img src={image} /> }
+        </div> */}
+        <div >
             <div>
                 <h2>{title}</h2>
                 <h3>{date}</h3>

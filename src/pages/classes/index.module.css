@@ -49,5 +49,9 @@
         padding: 0 20px;
         max-height: unset;
     }
+
+    .class .class-descripiton > div, .class:nth-child(even) .class-descripiton > div{
+        text-align: center;
+    }
 }
 

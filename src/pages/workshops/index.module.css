@@ -1,6 +1,7 @@
 .class{
     display: flex;
     flex-direction: row;
+    padding: 2em;
 }
 
 .class:nth-child(even){
