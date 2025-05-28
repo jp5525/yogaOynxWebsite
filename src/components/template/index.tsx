@@ -10,7 +10,7 @@ export default (props: RouteSectionProps<unknown>) =>
         <span class={styles.phone}>(248) 977-3107</span> 
 
         <span class="material-symbols-outlined">mail</span>
-        <span>yogaonyx1@gmail.com </span>
+        <span><a href="mailto:info@onyx.yoga">info@onyx.yoga </a></span>
       </div>
       <Header />
       <div class="content">
