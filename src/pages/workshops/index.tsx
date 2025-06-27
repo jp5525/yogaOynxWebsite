@@ -38,7 +38,7 @@ export default function Index() {
     return <div style={{height: "120vh"}}>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('workshops.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
-              <h2>Workshops</h2>
+              <h2>Workshops & Events</h2>
               <p>Special Offers</p>              
             </div>
         </Parallax>

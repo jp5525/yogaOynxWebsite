@@ -56,7 +56,7 @@ export default function Index() {
 
                         <div class={styles.info}>
                             <h4>Email</h4>
-                            <p class="copy">yogaonyx1@gmail.com</p>
+                            <p class="copy">info@onyx.yoga</p>
                         </div>
                     </div>
 
