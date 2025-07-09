@@ -32,37 +32,35 @@ const YogaClass = (props: { class:{title: string, description: string, image:str
 
 }
 
-export default function Index() {
+
+//this is the old workshops page
+export default function WorkShops() {
     const workshops = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Workshops"}).parse() ) ;
 
     return <div style={{height: "120vh"}}>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('workshops.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
-              <h2>Workshops & Events</h2>
-              <p>Special Offers</p>              
+              <h2 class="fn-cormorant">Workshops & Events</h2>
+                         
             </div>
         </Parallax>
 
         <div id={pageStyle["section-2"]}>
             <div>
-                <blockquote>
-                    <p>Explore Yoga In New Ways</p>
-                </blockquote>
                 <p class="copy">Our workshops offer the adventure of yoga in a variety of options. Whether you’re seeking play and fun or gentleness and rest, we have something for you.</p>
-                <div class={styles["center"]}>
-                    <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> Sign Up </a>    
-                </div>
+                
             </div>
         </div>
 
         <div id={styles["section-3"]}>
-            <Suspense fallback={<p>Loading..</p>}>
+            <healcode-widget data-type="enrollments" data-widget-partner="object" data-widget-id="50104989bbfb" data-widget-version="0" ></healcode-widget>
+            {/* <Suspense fallback={<p>Loading..</p>}>
                 <Switch>
                     <Match when={workshops()}>
                         {(workshops() ?? []).map(c=><YogaClass class={c} />)}
                     </Match >
                 </Switch >
-          </Suspense>
+          </Suspense> */}
         </div>
       </div>
   }

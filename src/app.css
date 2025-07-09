@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fn-cormorant{
+  font-family: Cormorant Garamond;
+}
 
 body {
-  font-family: Josefin Sans, Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Poppins, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0px;
-  background-color: black;
-  color: white;
+  background-color:  #1c1818;
+  color: #f7f7f3;
 }
 
 a {
@@ -71,7 +79,7 @@ h2 {
   background-color: rgba(68, 107, 158, 0.2);
 }
  .copy{
-    font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
+    font-family: "poppins", Helvetica, Arial, Lucida, sans-serif;
     line-height: 31px;
     font-size: 18px;
     font-weight: 100;
@@ -95,8 +103,8 @@ hr{
 input, textarea {
   box-sizing:border-box ;
   border-color: #777771;
-  background-color: #3c3c3c;
-  color: #000000;
+  background-color: #454545;
+  color: #f7f7f3;
   outline: none;
 }
 
@@ -123,15 +131,14 @@ label {
 
 input[type=submit] {
   background-color: #04AA6D;
-  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   margin: 2em 0;
 
-  background-color: #ccaa53;
-  color: #FFFFFF;
+  background-color: #1c1818;
+  color: #f7f7f3;
 }
 
 input[type=submit]:hover {
@@ -139,9 +146,9 @@ input[type=submit]:hover {
 }
 
 .btn{
-  background-color: black;
-  color: white;
-  border-radius: 0 ;
+  background-color: #1c1818;
+  border-radius: 100px;
+  color: #f7f7f3;
   font-size: 18px;
   padding: 0.6em 1.4em !important;
   font-weight: 700;
@@ -150,13 +157,13 @@ input[type=submit]:hover {
   text-transform: uppercase;
   line-height: 1.7em;
   transition: color 300ms ease 0ms,background-color 300ms ease 0ms,border 300ms ease 0ms;
-display: inline-block;
+  display: inline-block;
 }
 .btn:hover{
   
-  color: #ffffff;
-  border-color: #ccaa53;
-  background-color: #ccaa53;
+  color: #f7f7f3;
+  border-color: #a7a39c;
+  background-color: #a7a39c;
 }
 
 .modal-content{

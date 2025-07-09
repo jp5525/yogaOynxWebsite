@@ -18,18 +18,19 @@
 #action-items{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
 }
 
 #action-items a{
-    border: solid 2px white;
-    background-color: white;
-    color: black;
+    border: solid 2px #1c1818;
+    background-color: #1c1818;
+    border-radius: 24px;
+    color: #f7f7f3;
     font-family: lato;
     font-size: 18px;
     padding: 0.3em 1em !important;
     font-weight: 700;
-    margin: 0 10px;
+    margin: 0 0 0 10px;
     letter-spacing: 4px;
     text-transform: uppercase;
     line-height: 1.7em;
@@ -78,16 +79,12 @@
   }
 
 
-#action-items a.hollow-btn{
-    background-color: unset;
-    color: white;    
-}
 
 #action-items a:hover, #copy a:hover{
     
-    color: #ffffff;
-    border-color: #ccaa53;
-    background-color: #ccaa53;
+    color: #f7f7f3;
+    border-color: #a7a39c;
+    background-color: #a7a39c;
 }
 
 #section-2{
@@ -95,16 +92,14 @@
     flex-direction: row;
 }
 
-#copy, #image{
-    width: 50%;
-}
+
 
 #copy div{
-    padding: 15%;
+    padding: 5%;
 }
 
 #copy p{
-    font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
+    font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
     line-height: 1.7em;
     font-size: 100%;
     font-weight: 300;
@@ -113,7 +108,7 @@
 #copy h2{
     font-weight: 700;
   font-size: 25px;
-  color: #ccaa53 !important;
+  color:  #e1d8cb !important;
 }
 
   #image{
@@ -121,7 +116,7 @@
   }
 
   #copy a{
-    background-color: black;
+    background-color: #202011;
     color: white;
     font-family: lato;
     font-size: 18px;

@@ -9,16 +9,13 @@ export default function Index() {
     return <div style={{height: "120vh"}}>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('contact_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
-              <h2>Contact</h2>
-              <p>Get in Touch</p>              
+              <h2 class="fn-cormorant">Contact</h2>
+                            
             </div>
         </Parallax>
 
         <div id={pageStyle["section-2"]}>
             <div>
-                <blockquote>
-                    <p>We Hope To See You Soon</p>
-                </blockquote>
                 <p>Have a question for us? Please feel free to contact us by phone, email, or our online form. We will get in touch with you as soon as possible. Thank you!</p>
             </div>
         </div>
@@ -63,8 +60,12 @@ export default function Index() {
                     <hr />
 
                     <div id={styles.social}>
-                        <img src={addBaseUrl("facebook_icon.svg")} />
-                        <img src={addBaseUrl("instagram_icon.webp")} />
+                        <a href="https://www.instagram.com/yogaonyxlo"> 
+                            <img src={addBaseUrl("instagram_icon.webp")} />
+                        </a>
+                        <a href="https://www.facebook.com/yogaonyxlo"> 
+                            <img src={addBaseUrl("facebook_icon.svg")} />
+                        </a>
                     </div>
 
                 </div>
@@ -74,7 +75,10 @@ export default function Index() {
                     <h2>Contact Form</h2>
                     <p class="copy">Prefer to contact us via form? Please fill out the form below. We will answer you as soon as possible!</p>
                     <div>
-                        <form>
+                        <form   
+                            action="https://formspree.io/f/mjkrqpzp"
+                            method="post" 
+                        >
                             <div id={styles["form-line-1"]}>
                                 <div id={styles["left"]}>
                                     <label for="name">Name:</label>
@@ -102,7 +106,7 @@ export default function Index() {
                                 <textarea id="message" name="message" ></textarea>
                             </div>
                             
-                            <input type="submit" value="Send Message"/>
+                            <input class="btn" type="submit" value="Send Message"/>
 
                         </form>
                     </div>

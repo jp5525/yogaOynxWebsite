@@ -19,7 +19,7 @@ export default ()=>{
         { title:"Home", path: baseUrl? baseUrl : baseUrl},
         { title:"Teachers", path:`${baseUrl}teachers`},
         { title:"Classes", path:`${baseUrl}classes`},
-        { title:"Class\u00A0Schedule", path:"https://www.mindbodyonline.com/explore/locations/yoga-onyx", target: "_blank"},
+        { title:"Class\u00A0Schedule", path:`${baseUrl}schedule`},
         { title:"Workshops", path:`${baseUrl}workshops`},
         // { title:"Retreats", path:`${baseUrl}retreats`},
         { title:"Pricing", path: `${baseUrl}pricing`},

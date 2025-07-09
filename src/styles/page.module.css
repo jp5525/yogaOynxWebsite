@@ -6,7 +6,7 @@
     position: relative;
 }
 
-@media(max-width: 400px){
+@media(max-width: 500px){
     .hero{
         padding: 0 0;
     }
@@ -44,15 +44,16 @@
 
 #section-2 div blockquote p{
     font-size: 1.5em;
-    color: #ccaa53;
+    color: #e1d8cb;
 }
 
 #section-2 div > p{
-    font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif !important;
+    font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif !important;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: normal;
     font-size: 18px;
+    text-align: center;
 }
 
 @media( max-width: 760px) {

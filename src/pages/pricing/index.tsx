@@ -33,7 +33,7 @@ export default function Index() {
     return <div style={{height: "120vh"}}>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
-              <h2>Pricing</h2>
+              <h2 class="fn-cormorant">Pricing</h2>
               <p>Offers, Packages, & Memberships</p>     
               <div class="center" id={styles["mt-16"]}>
                 <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> Purchase Here </a>    
