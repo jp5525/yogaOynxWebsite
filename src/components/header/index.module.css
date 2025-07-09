@@ -110,3 +110,12 @@
       flex-direction: column;
     }
   }
+
+  @media (max-width: 400px){
+    .hide-on-desktop{
+      padding: 0%;
+    }
+    #nav{
+      margin-right: 0px;
+    }
+  }

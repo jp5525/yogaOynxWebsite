@@ -14,7 +14,7 @@ const YogaClass = (props: { class:YogaClassModel })=>{
 
     return <div class={styles.class}>
         <div class={styles["class-image"]}>
-            <img src={addBaseUrl(image)} />
+            <img src={image} />
         </div>
         <div class={styles["class-descripiton"]}>
             <div>
@@ -34,7 +34,7 @@ export default function Index() {
             <div id={pageStyle["hero-box"]}>
               <h2 class="fn-cormorant">Classes</h2>    
               <div class="center" id={styles["mt-16"]}>
-                <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> Schedule </a>    
+                <a href="/schedule" class="btn"> Schedule </a>    
               </div>       
             </div>
         </Parallax>

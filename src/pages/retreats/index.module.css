@@ -161,9 +161,10 @@ hr{
     .host{
         padding: 3em 15px;
     }
-    h2{
+    /*This effects other pages?*/
+    /* h2{
         text-align: center;
-    }
+    } */
     .even .left{ padding: unset;}
     .kelly > div{
         padding-left: unset;

@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
+    flex-wrap: wrap;
 }
 
 #action-items a{
@@ -137,6 +138,7 @@
   @media (max-width: 760px) {
     .hero{
         justify-content: center;
+        padding: 5%;
     }
 
     #welcome-box{
@@ -155,7 +157,11 @@
         width: 90%
     }
   }
-
+  @media (max-width: 400px) {
+    .hero{
+      padding: 5%;
+    }
+  }
   
   .dn{
     display: none;

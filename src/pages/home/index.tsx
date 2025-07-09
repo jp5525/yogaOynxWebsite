@@ -2,7 +2,7 @@ import { addBaseUrl } from "~/util"
 import Parallax from "~/components/parallax";
 import "../../app.css"
 import styles from "./index.module.css"
-import {createSignal} from "solid-js"
+
 
 export default function Index() {
     
