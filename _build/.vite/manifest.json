@@ -1,10 +1,10 @@
 {
   "_client-!~{002}~.js": {
-    "file": "assets/client-BXN_qAZN.css",
+    "file": "assets/client-Dcxw-Vsq.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-DRmBnej8.js": {
-    "file": "assets/client-DRmBnej8.js",
+  "_client-CUsJUQa7.js": {
+    "file": "assets/client-CUsJUQa7.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -12,7 +12,7 @@
       "src/pages/workshops/index.tsx"
     ],
     "css": [
-      "assets/client-BXN_qAZN.css"
+      "assets/client-Dcxw-Vsq.css"
     ],
     "assets": [
       "assets/wood-B7vlxAf2.jpg"
@@ -23,48 +23,48 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-B1meCb8Y.js",
+    "file": "assets/index-BbN0zxtf.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-DRmBnej8.js"
+      "_client-CUsJUQa7.js"
     ],
     "css": [
       "assets/index-Bb0YuzOH.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-BO0t1ZFi.js",
+    "file": "assets/index-BfJbJXxd.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-DRmBnej8.js"
+      "_client-CUsJUQa7.js"
     ],
     "css": [
       "assets/index-B64fyk4t.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-JXAUbOJY.js",
+    "file": "assets/index-BhYk7n0_.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-DRmBnej8.js"
+      "_client-CUsJUQa7.js"
     ],
     "css": [
       "assets/index-B3GiVaBj.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-xmxPUAlf.js",
+    "file": "assets/client-DZiSIjrt.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-DRmBnej8.js"
+      "_client-CUsJUQa7.js"
     ]
   }
 }
