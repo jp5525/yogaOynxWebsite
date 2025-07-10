@@ -17,7 +17,7 @@ export default function Index() {
               <h2 class="fn-cormorant">Teachers</h2>
               
               <div class="center" id={pageStyle["mt-16"]}>
-                <a href="https://www.mindbodyonline.com/explore/locations/yoga-onyx" class="btn"> See Schedule </a>    
+                <a href="/schedule" class="btn"> See Schedule </a>    
               </div>                    
             </div>
         </Parallax>

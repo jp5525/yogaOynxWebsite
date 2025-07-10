@@ -31,7 +31,7 @@
     font-size: 18px;
     padding: 0.3em 1em !important;
     font-weight: 700;
-    margin: 0 0 0 10px;
+    margin: 10px 0 0 10px;
     letter-spacing: 4px;
     text-transform: uppercase;
     line-height: 1.7em;
@@ -117,7 +117,7 @@
   }
 
   #copy a{
-    background-color: #181c1c;
+    background-color: #a7a39c;
     color: white;
     font-size: 18px;
     padding: 0.6em 1.4em !important;
@@ -128,7 +128,9 @@
     line-height: 1.7em;
     transition: color 300ms ease 0ms,background-color 300ms ease 0ms,border 300ms ease 0ms;
   }
-
+  #copy a:hover{
+    background: #1c1818;
+  }
   @media (max-width: 1200px){
     .modal-content{
         width: 75%
@@ -155,6 +157,10 @@
 
     .modal-content{
         width: 90%
+    }
+
+    #action-items{
+      justify-content: center;
     }
   }
   @media (max-width: 400px) {
