@@ -1,18 +1,19 @@
 {
   "_client-!~{002}~.js": {
-    "file": "assets/client-D77PgR-9.css",
+    "file": "assets/client-DtfiKp91.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-BiLdbJHT.js": {
-    "file": "assets/client-BiLdbJHT.js",
+  "_client-DZesDwgn.js": {
+    "file": "assets/client-DZesDwgn.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
+      "src/pages/classes/index.tsx",
       "src/pages/pricing/index.tsx",
       "src/pages/workshops/index.tsx"
     ],
     "css": [
-      "assets/client-D77PgR-9.css"
+      "assets/client-DtfiKp91.css"
     ],
     "assets": [
       "assets/wood-B7vlxAf2.jpg"
@@ -22,49 +23,61 @@
     "file": "assets/wood-B7vlxAf2.jpg",
     "src": "public/wood.jpg"
   },
+  "src/pages/classes/index.tsx": {
+    "file": "assets/index-B0Jh9HKX.js",
+    "name": "index",
+    "src": "src/pages/classes/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-DZesDwgn.js"
+    ],
+    "css": [
+      "assets/index-GoyOJSjq.css"
+    ]
+  },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-CCb3X1Vf.js",
+    "file": "assets/index-C30WDHRc.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-BiLdbJHT.js"
+      "_client-DZesDwgn.js"
     ],
     "css": [
       "assets/index-Bb0YuzOH.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-DdaSwpRY.js",
+    "file": "assets/index-ByoW13JT.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-BiLdbJHT.js"
+      "_client-DZesDwgn.js"
     ],
     "css": [
       "assets/index-B64fyk4t.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-B2bO25ny.js",
+    "file": "assets/index-BzUzt5-6.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-BiLdbJHT.js"
+      "_client-DZesDwgn.js"
     ],
     "css": [
       "assets/index-B3GiVaBj.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-BZoEHkMp.js",
+    "file": "assets/client-dQV6KGSE.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-BiLdbJHT.js"
+      "_client-DZesDwgn.js"
     ]
   }
 }
