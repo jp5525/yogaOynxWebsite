@@ -22,17 +22,16 @@ export default function Index() {
                   <a  href={"https://www.mindbodyonline.com/explore/locations/yoga-onyx"} target="_blank">
                     View Schedule
                   </a>
-
               </div>
             </div>
         </Parallax>
         <div id={styles["section-2"]}>
           <div id={styles.copy}>
             <div>
-              <p>At Yoga Onyx, we believe in the healing power of breath, movement, and stillness. We believe in coming together as a community to practice, and have cultivated a safe space for everyBODY to be able to just be, as you are, in the current moment, whatever that looks like, free from judgment.</p>
-              <p>We live in a fast-paced society. We are trained to believe that busy is a good thing, or even productive. In this go go go lifestyle that has been created over generations, Yoga Onyx leads and encourages the opposite. We teach our students how to be still. How to strengthen the mind and build an equanimity, the ability to be still, and of a sound mind even in chaotic situations. We teach that movement is medicine. That we have the power within the human body to heal ourselves with direct, intentional movement. But most of all, we believe in the power of the breath. This is the fundamental, foundation of a yoga practice. Our teachers will begin each class by cultivating a breath, a deep, diaphragmatic breath that encourages lightness, promotes detoxification, and quiets the mind, ultimately linking the mind to the body and the breath, all together.</p>
-              <p>We are a warm to hot studio, heated with infrared panels. We believe in practicing in a heated space as it lowers the risk of injury, leads to deeper detoxification, promotes an increased flexibility, and increases circulation, amongst other things. We chose infrared panels because of the numerous benefits they provide. Studies show that practicing yoga, or movement, or even stillness in an infrared environment can lower cholesterol, improve cardiovascular health, strengthen the immune system, activates serotonin production which aids in those struggling with depression, to name a few…</p>
-              <p>We are confident that you will find a peaceful and safe place here. A place for you to cultivate your own yoga practice or deepen it. A place for you to come as you are, turn your attention inward, quiet your mind, find stillness, and freely move your body without judgment.</p>
+              <p>At Yoga Onyx, we believe in the healing power of breath, movement, and stillness. Located in Orion Michiga, we are a flow-on-your-own studio — meaning that after guided instruction, students are encouraged to move at their own pace, in rhythm with their breath, adapting and modifying each pose to meet their personal needs. This approach fosters autonomy, self-awareness, and a deeper connection to your body and practice. We’ve created a space where every body is welcome — to show up as you are, free from judgment, and fully supported.</p>
+              <p>In a world that glorifies busy, we teach the opposite. We guide students toward stillness, mental clarity, and inner strength — the ability to remain grounded even in chaos. We believe movement is medicine, and that the human body holds an innate ability to heal through intentional, mindful motion. At the heart of it all is the breath. Each class begins with deep, diaphragmatic breathing to promote lightness, detoxification, and calm — aligning body, mind, and breath as one.</p>
+              <p>Our studio is warm to hot, heated with therapeutic infrared panels. Practicing in heat helps reduce injury risk, increase circulation, enhance flexibility, and support detoxification. Infrared technology offers additional benefits, such as improved cardiovascular health, strengthened immunity, lowered cholesterol, and increased serotonin production — which can support those managing depression.</p>
+              <p>At Yoga Onyx, you’ll find a peaceful and empowering space to cultivate or deepen your practice. A place to move freely, turn inward, and simply be — exactly as you are.</p>
               <a href={addBaseUrl('teachers')} class="btn">Meet Our Teachers</a>
             </div>
           </div>
