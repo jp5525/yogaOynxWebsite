@@ -2,6 +2,7 @@ import { addBaseUrl } from "~/util"
 import Parallax from "~/components/parallax";
 import "../../app.css"
 import styles from "./index.module.css"
+import { Title, MetaProvider } from "@solidjs/meta";
 
 
 export default function Index() {
@@ -9,7 +10,9 @@ export default function Index() {
     return <div style={{height: "120vh"}}>    
 
         
-
+        <MetaProvider>
+          <Title>Yoga Onyx</Title>
+        </MetaProvider>
         <Parallax class={styles.hero} style={{ "min-height": "85Vh"}} image={addBaseUrl('home_page_hero_banner.jpg')}>
             <div id={styles["welcome-box"]}>
               <h2>Welcome</h2>

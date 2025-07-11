@@ -3,7 +3,7 @@ import { createAsync } from "@solidjs/router";
 import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
 import styles  from "./index.module.css"
 import { addBaseUrl } from "~/util"
-import { Suspense, Switch, Match } from "solid-js";
+import { Title, MetaProvider } from "@solidjs/meta";
 import pageStyle from "../../styles/page.module.css"
 import "../../app.css"
 
@@ -12,6 +12,9 @@ export default function Index() {
     const classes = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Classes"}).parse() )
     
     return <div style={{height: "120vh"}}>
+        <MetaProvider>
+          <Title>Schedule | Yoga Onyx</Title>
+        </MetaProvider>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2 class="fn-cormorant">Classe Schedule</h2>     

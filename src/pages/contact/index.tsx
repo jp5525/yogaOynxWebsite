@@ -3,10 +3,14 @@ import { addBaseUrl } from "~/util"
 import "../../app.css"
 import styles  from "./index.module.css"
 import pageStyle from "../../styles/page.module.css"
+import { Title, MetaProvider } from "@solidjs/meta";
 
 
 export default function Index() {
     return <div style={{height: "120vh"}}>
+        <MetaProvider>
+          <Title>Contact | Yoga Onyx</Title>
+        </MetaProvider>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('contact_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2 class="fn-cormorant">Contact</h2>

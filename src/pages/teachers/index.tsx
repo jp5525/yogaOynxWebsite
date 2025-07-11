@@ -6,12 +6,16 @@ import pageStyle from "../../styles/page.module.css"
 import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
 import { createAsync } from "@solidjs/router";
 import { Suspense, Switch, Match } from "solid-js";
+import { Title, MetaProvider } from "@solidjs/meta";
 
 export default function Index() {
 
     const teachers = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Teachers"}).parse() );
     
     return <div style={{height: "120vh"}}>
+        <MetaProvider>
+          <Title>Teachers | Yoga Onyx</Title>
+        </MetaProvider>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('teachers_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2 class="fn-cormorant">Teachers</h2>

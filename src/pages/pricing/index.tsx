@@ -6,6 +6,7 @@ import "../../app.css"
 import  PublicGoogleSheetsParser from 'public-google-sheets-parser'
 import { Suspense, Switch, Match } from "solid-js";
 import { createAsync } from "@solidjs/router";
+import { Title, MetaProvider } from "@solidjs/meta";
 
 type Price ={
     description: string;
@@ -31,6 +32,9 @@ export default function Index() {
     const pricing = createAsync( ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Pricing"}).parse() );  
 
     return <div style={{height: "120vh"}}>
+        <MetaProvider>
+          <Title>Pricing | Yoga Onyx</Title>
+        </MetaProvider>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2 class="fn-cormorant">Pricing</h2>

@@ -6,6 +6,7 @@ import { addBaseUrl } from "~/util"
 import { Suspense, Switch, Match } from "solid-js";
 import pageStyle from "../../styles/page.module.css"
 import "../../app.css"
+import { Title, MetaProvider } from "@solidjs/meta";
 
 type YogaClassModel =  {title: string, description: string, image:string};
 
@@ -30,6 +31,9 @@ export default function Index() {
     const classes = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Classes"}).parse() )
     
     return <div style={{height: "120vh"}}>
+        <MetaProvider>
+          <Title>Classes | Yoga Onyx</Title>
+        </MetaProvider>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('classes_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2 class="fn-cormorant">Classes</h2>    

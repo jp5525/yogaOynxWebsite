@@ -9,6 +9,7 @@
   "dependencies": {
     "@kobalte/core": "^0.13.4",
     "@solid-primitives/scroll": "^2.0.23",
+    "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.13.6",
     "@solidjs/start": "^1.0.2",
     "install": "^0.13.0",
