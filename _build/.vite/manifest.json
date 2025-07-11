@@ -3,8 +3,8 @@
     "file": "assets/client-D77PgR-9.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-bRHosZ2L.js": {
-    "file": "assets/client-bRHosZ2L.js",
+  "_client-BiLdbJHT.js": {
+    "file": "assets/client-BiLdbJHT.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -23,48 +23,48 @@
     "src": "public/wood.jpg"
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-CHG98Ay-.js",
+    "file": "assets/index-CCb3X1Vf.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-bRHosZ2L.js"
+      "_client-BiLdbJHT.js"
     ],
     "css": [
       "assets/index-Bb0YuzOH.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-BrgeXMjL.js",
+    "file": "assets/index-DdaSwpRY.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-bRHosZ2L.js"
+      "_client-BiLdbJHT.js"
     ],
     "css": [
       "assets/index-B64fyk4t.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-BBzq56cz.js",
+    "file": "assets/index-B2bO25ny.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-bRHosZ2L.js"
+      "_client-BiLdbJHT.js"
     ],
     "css": [
       "assets/index-B3GiVaBj.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-D5EUrgi6.js",
+    "file": "assets/client-BZoEHkMp.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-bRHosZ2L.js"
+      "_client-BiLdbJHT.js"
     ]
   }
 }
