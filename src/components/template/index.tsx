@@ -1,4 +1,5 @@
 import Header from "../header"
+import Footer from "../footer";
 import type { RouteSectionProps } from "@solidjs/router";
 
 import styles from "./index.module.css"
@@ -16,4 +17,5 @@ export default (props: RouteSectionProps<unknown>) =>
       <div class="content">
         {props.children}
       </div>
+      <Footer />
   </div>

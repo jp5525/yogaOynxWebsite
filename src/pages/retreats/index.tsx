@@ -7,7 +7,7 @@ import "../../app.css"
 
 export default function Index() {
 
-    return <div style={{height: "120vh"}}>
+    return <div>
         <Parallax class={pageStyle.hero} style={{"min-height": "40vh"}} image={addBaseUrl('retreats_hero.jpg')} opacity={0.55}>
             <div id={pageStyle["hero-box"]}>
               <h2>RETREATS</h2>

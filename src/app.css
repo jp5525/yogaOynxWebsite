@@ -152,7 +152,7 @@ input[type=submit]:hover {
   font-size: 18px;
   padding: 0.6em 1.4em !important;
   font-weight: 700;
-  margin: 0 10px;
+  /* margin: 0 10px; */
   letter-spacing: 4px;
   text-transform: uppercase;
   line-height: 1.7em;

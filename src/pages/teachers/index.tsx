@@ -12,7 +12,7 @@ export default function Index() {
 
     const teachers = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Teachers"}).parse() );
     
-    return <div style={{height: "120vh"}}>
+    return <div>
         <MetaProvider>
           <Title>Teachers | Yoga Onyx</Title>
         </MetaProvider>

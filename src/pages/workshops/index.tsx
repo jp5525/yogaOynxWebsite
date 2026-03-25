@@ -37,7 +37,7 @@ const YogaClass = (props: { class:{title: string, description: string, image:str
 export default function WorkShops() {
     const workshops = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Workshops"}).parse() ) ;
 
-    return <div style={{height: "120vh"}}>
+    return <div style={{"min-height": "120vh"}}>
         <MetaProvider>
           <Title>Workshops | Yoga Onyx</Title>
         </MetaProvider>

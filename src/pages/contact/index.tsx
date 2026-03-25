@@ -7,7 +7,7 @@ import { Title, MetaProvider } from "@solidjs/meta";
 
 
 export default function Index() {
-    return <div style={{height: "120vh"}}>
+    return <div>
         <MetaProvider>
           <Title>Contact | Yoga Onyx</Title>
         </MetaProvider>

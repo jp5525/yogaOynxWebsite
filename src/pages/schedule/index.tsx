@@ -11,7 +11,7 @@ import "../../app.css"
 export default function Index() {
     const classes = createAsync( async ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Classes"}).parse() )
     
-    return <div style={{height: "120vh"}}>
+    return <div style={{"min-height": "120vh"}}>
         <MetaProvider>
           <Title>Schedule | Yoga Onyx</Title>
         </MetaProvider>

@@ -7,6 +7,10 @@
     width: 50%
 }
 
+hr{
+    padding-right: 32px;
+}
+
 #contact-info h2, #contact-form h2{
     font-weight: 700;
   font-style: normal;

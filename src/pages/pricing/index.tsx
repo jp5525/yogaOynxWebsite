@@ -31,7 +31,7 @@ export default function Index() {
 
     const pricing = createAsync( ()=> new PublicGoogleSheetsParser("1LzEJ5Bgcdu7QOVlauooDXtBUEDWPzOcf-7Br5XPiYnc",{sheetName:"Pricing"}).parse() );  
 
-    return <div style={{height: "120vh"}}>
+    return <div>
         <MetaProvider>
           <Title>Pricing | Yoga Onyx</Title>
         </MetaProvider>

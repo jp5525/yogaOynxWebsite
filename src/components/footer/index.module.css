@@ -1,33 +1,84 @@
-.header {
-    font-family: Poppins;
-    padding: 0px 0px; 
-    background:  #1c1818;
-    color: #f1f1f1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: 10;
-    transition: all 3s ease-in-out;
-  }
-  
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+#footer {
+  font-family: Poppins;
+  padding: 30px; 
+  background:  #1c1818;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 10;
+  width: auto;
 }
 
+.left{
+  display: flex;
+  flex-direction: row;
+}
 
 #logo{
-    margin: 16px 16px 16px 30px;
+  margin-right: 16px
 }
 
-.header #logo img{
-    width: 186px;
+.address{
+  margin-left: 16px;
+  text-align: center;
+  align-items: end;
+  align-content: end;
+}
+address{
+  font-weight: lighter;
+}
+  
+#social a img{
+  width: 64px
+}
+
+#footer #logo img{
+    width:  256px;
     transition: all 0.25s ease-in-out;
 }
 
+@media (max-width: 700px){
+  #footer {
+    font-family: Poppins;
+    /* padding: 30px;  */
+    background:  #1c1818;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    width: auto;
+    font-size: smaller;
+    }
 
+    .left{
+      margin-bottom: 32px;
+      align-items: center;
+    }
+
+    #footer #logo img{
+      width: 128px;
+      transition: all 0.25s ease-in-out;
+    }
+}
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+
+/* #logo{
+    margin: 30px ;
+    width: auto;
+} */
+
+
+
+/*
  .sticky #logo img{
     width: 120px;
     transition: all 0.25s ease-in-out;
@@ -118,4 +169,4 @@
     #nav{
       margin-right: 0px;
     }
-  }
+  }*/
