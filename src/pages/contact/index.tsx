@@ -61,7 +61,9 @@ export default function Index() {
                         </div>
                     </div>
 
-                    <hr />
+                    <div class={styles.pr}>
+                        <hr />
+                    </div>
 
                     <div id={styles.social}>
                         <a href="https://www.instagram.com/yogaonyxlo"> 
@@ -90,11 +92,9 @@ export default function Index() {
                                 </div>
 
                                 <div id={styles["right"]}>
-                                    <label for="email">Email Address:</label>
+                                    <label for="email">Email&nbsp;Address:</label>
                                     <input type="text" id="email" name="email" />
-
                                 </div>
-
                             </div>
 
                             <br />
