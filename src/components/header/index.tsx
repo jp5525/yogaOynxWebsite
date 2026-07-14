@@ -22,6 +22,7 @@ export default ()=>{
         { title:"Class\u00A0Schedule", path:`${baseUrl}schedule`},
         { title:"Workshops", path:`${baseUrl}workshops`},
         // { title:"Retreats", path:`${baseUrl}retreats`},
+        { title:"Training", path:`${baseUrl}training`},
         { title:"Pricing", path: `${baseUrl}pricing`},
         { title:"Contact", path:`${baseUrl}contact`},
     ]

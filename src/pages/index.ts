@@ -7,6 +7,7 @@ const Pricing = clientOnly(()=>import("./pricing"))
 import Contact from "./contact"
 import Retreats from "./retreats"
 import Schedule from "./schedule"
+import Training from "./training"
 const Workshops = clientOnly(()=>import("./workshops"))
 
 export default [
@@ -17,5 +18,6 @@ export default [
     { path: "/contact", component: Contact},
     { path: "/retreats", component: Retreats},
     { path: "/workshops", component: Workshops},
-    { path: "/schedule", component: Schedule}
+    { path: "/schedule", component: Schedule},
+    { path: "/training", component: Training}
 ]

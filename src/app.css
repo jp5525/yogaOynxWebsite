@@ -166,6 +166,27 @@ input[type=submit]:hover {
   background-color: #a7a39c;
 }
 
+.btn-light{
+  background-color: #f7f7f3;
+  border-radius: 100px;
+  color: #1c1818;
+  font-size: 18px;
+  padding: 0.6em 1.4em !important;
+  font-weight: 700;
+  /* margin: 0 10px; */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.7em;
+  transition: color 300ms ease 0ms,background-color 300ms ease 0ms,border 300ms ease 0ms;
+  display: inline-block;
+}
+.btn-light:hover{
+  
+  color: #f7f7f3;
+  border-color: #a7a39c;
+  background-color: #a7a39c;
+}
+
 .modal-content{
   background-color: #000000;
 }
