@@ -3,8 +3,8 @@
     "file": "assets/client-MLYva2mJ.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-qRc52rf8.js": {
-    "file": "assets/client-qRc52rf8.js",
+  "_client-D2pTXJFc.js": {
+    "file": "assets/client-D2pTXJFc.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -24,60 +24,60 @@
     "src": "public/wood.jpg"
   },
   "src/pages/classes/index.tsx": {
-    "file": "assets/index-DBhS0e_k.js",
+    "file": "assets/index-BHUndxQO.js",
     "name": "index",
     "src": "src/pages/classes/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-qRc52rf8.js"
+      "_client-D2pTXJFc.js"
     ],
     "css": [
       "assets/index-GoyOJSjq.css"
     ]
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-Dg14m9PT.js",
+    "file": "assets/index-CDDHP534.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-qRc52rf8.js"
+      "_client-D2pTXJFc.js"
     ],
     "css": [
       "assets/index-BVoMpY3p.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-WqAQiZAa.js",
+    "file": "assets/index-BRA0vEuc.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-qRc52rf8.js"
+      "_client-D2pTXJFc.js"
     ],
     "css": [
       "assets/index-B64fyk4t.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-ukQV8V11.js",
+    "file": "assets/index-Bu7aZ03i.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-qRc52rf8.js"
+      "_client-D2pTXJFc.js"
     ],
     "css": [
       "assets/index-B3GiVaBj.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DpxGIkLw.js",
+    "file": "assets/client-DarwVmu2.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-qRc52rf8.js"
+      "_client-D2pTXJFc.js"
     ]
   }
 }
