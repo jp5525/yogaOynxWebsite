@@ -124,7 +124,7 @@ export default function Index() {
                     Stress, emotions, and the nervous system<br />
                     Awareness and relationship patterns<br />
                     Living yoga off the mat<br />
-                    Journaling, discussion, and integration<br />
+                    Journaling, discussion, and integration <br /> <br />
                 </Collapsible.Content>
             </Collapsible>
 
