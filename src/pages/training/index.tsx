@@ -138,9 +138,9 @@ export default function Index() {
                     < br />
                     <b>Weekday Track</b> < br />
                     September 8 - November 17 < br />
-                    No training on September 29. <br />
                     Tuesdays < br />
                     10:30 AM–2:00 PM < br />
+                    <i>No training on September 29.</i> <br />
                     < br />
                     <b>Weekend Intensive Track</b> < br />
                     September 19–20 < br />
