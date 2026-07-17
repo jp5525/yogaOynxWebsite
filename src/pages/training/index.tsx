@@ -137,7 +137,8 @@ export default function Index() {
                     Choose the schedule that best fits your life. Both tracks cover the same 30-hour curriculum. < br />
                     < br />
                     <b>Weekday Track</b> < br />
-                    Beginning September 8 < br />
+                    September 8 - November 17 < br />
+                    No training on September 29. <br />
                     Tuesdays < br />
                     10:30 AM–2:00 PM < br />
                     < br />
@@ -170,7 +171,7 @@ export default function Index() {
             </Collapsible>
 
             <Collapsible class={styles["collapsible"]}>
-                <Collapsible.Trigger class={styles["collapsible__trigger"]}>
+                <Collapsible.Trigger class={styles["collapsible__trigger__last"]}>
                     FAQ
                    { plusIcon }
                 </Collapsible.Trigger>
@@ -185,13 +186,11 @@ export default function Index() {
                         <b>What happens if I can't make a session?</b> <br />
                         Please do your best to commit to making it to every session. I am unable to commit to extra one on one time to get you caught up, but I will be able to provide you the material and I will do my best to go over it with you.
                         If you already know you can't make a session, please let me know ahead of time.
-
                     </p>
 
                     <p>
                         <b>Is Ashtanga covered at 10:30am on Tuesdays?</b> <br />
                         Yes! If you have a class package you do not need to use one of your passes. Ashtanga on Tuesdays is included in the training.
-
                     </p>
                 </Collapsible.Content>
             </Collapsible>
