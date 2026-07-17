@@ -3,8 +3,8 @@
     "file": "assets/client-MLYva2mJ.css",
     "src": "_client-!~{002}~.js"
   },
-  "_client-B5VbMrIa.js": {
-    "file": "assets/client-B5VbMrIa.js",
+  "_client-BeFwZ42R.js": {
+    "file": "assets/client-BeFwZ42R.js",
     "name": "client",
     "dynamicImports": [
       "src/pages/teachers/index.tsx",
@@ -24,60 +24,60 @@
     "src": "public/wood.jpg"
   },
   "src/pages/classes/index.tsx": {
-    "file": "assets/index-DIeq_vij.js",
+    "file": "assets/index-CuwLymTo.js",
     "name": "index",
     "src": "src/pages/classes/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-B5VbMrIa.js"
+      "_client-BeFwZ42R.js"
     ],
     "css": [
       "assets/index-GoyOJSjq.css"
     ]
   },
   "src/pages/pricing/index.tsx": {
-    "file": "assets/index-CrAqn-8h.js",
+    "file": "assets/index-CTt92zOQ.js",
     "name": "index",
     "src": "src/pages/pricing/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-B5VbMrIa.js"
+      "_client-BeFwZ42R.js"
     ],
     "css": [
       "assets/index-BVoMpY3p.css"
     ]
   },
   "src/pages/teachers/index.tsx": {
-    "file": "assets/index-C-AWuBwM.js",
+    "file": "assets/index-OaEkXWx5.js",
     "name": "index",
     "src": "src/pages/teachers/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-B5VbMrIa.js"
+      "_client-BeFwZ42R.js"
     ],
     "css": [
       "assets/index-B64fyk4t.css"
     ]
   },
   "src/pages/workshops/index.tsx": {
-    "file": "assets/index-iCry_8dd.js",
+    "file": "assets/index-FKpQ2rn7.js",
     "name": "index",
     "src": "src/pages/workshops/index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-B5VbMrIa.js"
+      "_client-BeFwZ42R.js"
     ],
     "css": [
       "assets/index-B3GiVaBj.css"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-BythXL7h.js",
+    "file": "assets/client-DdYQGGb_.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-B5VbMrIa.js"
+      "_client-BeFwZ42R.js"
     ]
   }
 }
