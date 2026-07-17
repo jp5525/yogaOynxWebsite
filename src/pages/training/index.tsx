@@ -6,7 +6,7 @@ import "../../app.css"
 import { Collapsible } from "@kobalte/core/collapsible";
 ;import { Title, MetaProvider } from "@solidjs/meta";
 
-const plusIcon =  <div class={styles["icon-toggle"]}>
+const plusIcon =  ()=> <div class={styles["icon-toggle"]}>
 
     <svg class={styles["icon-primary"]} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
@@ -166,6 +166,33 @@ export default function Index() {
                     <b>Regular Tuition $500</b> Beginning <b>August 1 </b> < br />
                     < br />
                     Payment plans are available. < br />
+                </Collapsible.Content>
+            </Collapsible>
+
+            <Collapsible class={styles["collapsible"]}>
+                <Collapsible.Trigger class={styles["collapsible__trigger"]}>
+                    FAQ
+                   { plusIcon }
+                </Collapsible.Trigger>
+                <Collapsible.Content>
+                    <p>
+                        <b>What materials/books do I need?</b> <br />
+                        All books are optional. I am not requiring any specific readings except for one book report. I will provide you a list of the books from you to choose from to do your book report on. This list will be provided upon registration.
+                        I do highly recommend purchasing The Ashtanga Manual by David Swenson.
+                    </p>
+
+                    <p>
+                        <b>What happens if I can't make a session?</b> <br />
+                        Please do your best to commit to making it to every session. I am unable to commit to extra one on one time to get you caught up, but I will be able to provide you the material and I will do my best to go over it with you.
+                        If you already know you can't make a session, please let me know ahead of time.
+
+                    </p>
+
+                    <p>
+                        <b>Is Ashtanga covered at 10:30am on Tuesdays?</b> <br />
+                        Yes! If you have a class package you do not need to use one of your passes. Ashtanga on Tuesdays is included in the training.
+
+                    </p>
                 </Collapsible.Content>
             </Collapsible>
 
